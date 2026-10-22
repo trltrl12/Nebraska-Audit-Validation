@@ -126,4 +126,3 @@ def evaluate_aggregate(candidates: Iterable[PublicationCandidate]) -> GateResult
             reasons.append("operating aggregate includes nonexternal or unknown activity: " + ", ".join(nonexternal))
 
     return GateResult(eligible=not reasons, reasons=tuple(dict.fromkeys(reasons)))
-

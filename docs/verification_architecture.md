@@ -56,4 +56,3 @@ Original observations remain unchanged. A correction creates a new or revised st
 - `schema/validation.sql` defines the normalized evidence, classification, assessment, decision, and correction tables.
 - `publication.py` implements record and aggregate gates independently of the source workbook.
 - Regression tests cover missing values, incomplete verification, accounting-basis mixing, interfund aggregation, and database constraints.
-

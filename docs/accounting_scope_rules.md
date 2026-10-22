@@ -20,4 +20,3 @@ Entity location, primary county, service-area counties, and statewide status are
 ## Fiscal periods
 
 The reporting period is derived from the statement and supporting source evidence, not solely from filenames or filing directories. Comparative prior-year columns and budget columns are stored separately from current-year actual values.
-

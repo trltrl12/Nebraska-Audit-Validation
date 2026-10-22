@@ -125,4 +125,3 @@ CREATE TABLE correction_log (
 CREATE INDEX idx_observation_document ON source_observation(document_id);
 CREATE INDEX idx_fact_observation ON standardized_fact(observation_id);
 CREATE INDEX idx_assessment_fact_dimension ON verification_assessment(fact_id, dimension);
-
