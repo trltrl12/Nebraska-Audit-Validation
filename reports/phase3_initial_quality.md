@@ -1,25 +1,25 @@
 # Phase 3 Initial Quality Scan
 
-Generated `2026-10-22T20:22:48.766348+00:00` from read-only source outputs.
+Generated `2026-10-22T20:29:34.708379+00:00` from read-only source outputs.
 
 > These are automated findings and review candidates. A candidate is not a confirmed financial error until source evidence establishes it.
 
 ## Findings
 
-- Failures: 54
+- Failures: 57
 - Incomplete checks: 339
-- Review candidates: 198
+- Review candidates: 204
 
 | Rule | Count |
 | --- | ---: |
-| CLASS-TRANSFER-001 | 178 |
-| DUP-SOURCE-001 | 20 |
+| CLASS-TRANSFER-001 | 182 |
+| DUP-SOURCE-001 | 22 |
 | REC-BAL-001 | 9 |
 | REC-BT-001 | 14 |
 | REC-GOV-001 | 20 |
 | REC-GOV-002 | 339 |
 | REC-PROP-001 | 2 |
-| SOURCE-FLAG-001 | 9 |
+| SOURCE-FLAG-001 | 12 |
 
 ## Highest-priority entities
 
@@ -27,6 +27,7 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 
 | Tier | File | Entity | Failures | Incomplete | Scanner reviews | Existing reviews | Page checks | Decisions |
 | ---: | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1 | Sargent_Public_Schools_FY2025 | Sargent School District No. 84 | 3 | 0 | 3 | 46 | 15 | 0 |
 | 1 | Oshkosh_FY2025 | City of Oshkosh | 2 | 0 | 0 | 56 | 4 | 1 |
 | 1 | Wymore_FY2025 | City of Wymore | 2 | 0 | 0 | 39 | 4 | 1 |
 | 1 | Sutherland_FY2025 | Village of Sutherland | 2 | 0 | 0 | 80 | 2 | 0 |
@@ -76,7 +77,6 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 | 1 | Sarpy_County_SID_23_FY2025 | Sanitary and Improvement District No. 23 of Sarpy County | 1 | 0 | 0 | 17 | 0 | 0 |
 | 1 | Sarpy_County_SID_373_FY2025 | Sanitary and Improvement District No. 373 of Sarpy County | 1 | 0 | 0 | 9 | 0 | 0 |
 | 1 | Douglas_County_SID_633_FY2025 | Sanitary and Improvement District No. 633 of Douglas County | 1 | 0 | 0 | 8 | 0 | 0 |
-| 1 | Sarpy_County_SID_374_FY2025 | Sanitary and Improvement District No. 374 of Sarpy County | 1 | 0 | 0 | 6 | 0 | 0 |
 
 ## Interpretation limits
 

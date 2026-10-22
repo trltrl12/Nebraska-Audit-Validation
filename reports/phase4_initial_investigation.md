@@ -6,7 +6,7 @@ This initial investigation examined the first fourteen Tier 1 entities in the Ph
 
 ## Result
 
-Seventeen discrepancies were independently confirmed as inconsistencies printed in the source reports. One retained-source completeness defect and one validator false positive were also confirmed. No financial value was corrected, and the correction log remains empty.
+Seventeen discrepancies were independently confirmed as inconsistencies printed in the source reports. One retained-source completeness defect and four validator false positives were also confirmed. No financial value was corrected, and the correction log remains empty.
 
 | Entity | Check | Difference | Confirmed source issue |
 | --- | --- | ---: | --- |
@@ -32,6 +32,8 @@ Hickman is a different problem: the retained PDF does not include the government
 
 The Municipal Energy Agency flag is a validator false positive. “Transfer from (provision for) rate stabilization” is printed as a regulatory adjustment within operating revenues, rather than an interfund transfer. The original label and negative operating-revenue treatment should remain, with a narrow exception to the generic transfer-word rule.
 
+The October 22 Sargent Public Schools re-trim produced three more validator false positives. On retained PDF pages 22–23 (printed statement pages 49–50), “Athletic Transfer” and “Transfer” are Activities Fund account names. The flagged amounts are printed in the Receipts or Disbursements columns, while each row's Transfers in (out) value is zero. The $3,000 and $7,175 receipts and $7,281 disbursement should remain in their printed columns. The generic transfer-word rule needs statement-column context rather than reclassification of these amounts.
+
 ## Audit treatment
 
 - Preserve the original lines and printed totals as separate source observations.
@@ -46,4 +48,4 @@ The existing JSON already records the source-report discrepancies in `report_dis
 
 ## Next investigation targets
 
-The next group prioritizes remaining existing validator flags and material transfer/classification cases, beginning with Boelus, Hall County, Leigh, Lower Loup NRD, Ord, Plattsmouth Airport Authority, and Twin Platte NRD.
+The next group prioritizes remaining existing validator flags and material transfer/classification cases, beginning with Boelus, Hall County, Leigh, Lower Loup NRD, Ord, Plattsmouth Airport Authority, and Twin Platte NRD. Sargent's three source flags can be removed after the source validator adopts the documented context-aware exception.

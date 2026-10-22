@@ -2,7 +2,7 @@
 
 ## Phase 1 — Discovery and baseline
 
-Status: completed for source commit `e3487afa0a6953a428bea997359aa257fd97882c`.
+Status: completed and refreshed for source commit `d3fa659a9a62f6ba11fd35154f168f466e70b683`.
 
 Completed:
 
@@ -11,6 +11,7 @@ Completed:
 - Added regression tests for filename normalization and duplicate-detection semantics.
 - Generated machine-readable metrics and a human-readable baseline report.
 - Preserved both source and validation roles: no source artifacts were overwritten.
+- Assessed the October 22 source update and documented the Sargent re-trim separately from changes caused by rebuilding previously stale generated projections.
 
 ## Phase 2 — Validation architecture
 
@@ -37,9 +38,11 @@ Completed:
 
 - Independently inspected cited statement-page evidence for fourteen Tier 1 entities.
 - Confirmed seventeen internal source-report discrepancies across governmental, business-type, proprietary cash-flow, and balance-sheet checks.
-- Confirmed one incomplete retained-source case (Hickman) and one validator false positive (Municipal Energy Agency of Nebraska).
+- Confirmed one incomplete retained-source case (Hickman) and four validator false positives: one Municipal Energy Agency classification and three Sargent Public Schools account-name matches.
 - Recorded publication treatment without changing or forcing any financial value.
+- Refreshed the baseline and quality scan to source commit `d3fa659a9a62f6ba11fd35154f168f466e70b683`.
 
 Next:
 
 - Investigate the remaining Tier 1 entities, separating source-report defects from extraction, classification, and completeness defects.
+- Resolve the source validator's three Sargent false positives with a context-aware rule that checks the printed statement column, while preserving the extracted receipt and disbursement values.

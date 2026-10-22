@@ -1,15 +1,15 @@
 # Phase 1 Baseline Audit
 
-Generated from source commit `e3487afa0a6953a428bea997359aa257fd97882c` on `2026-10-22T19:54:26.869816+00:00`.
+Generated from source commit `d3fa659a9a62f6ba11fd35154f168f466e70b683` on `2026-10-22T20:29:28.028131+00:00`.
 
 > Scope: structural inventory, cross-table checks, and reproduction of the existing validator's status. This is not comprehensive verification against every PDF.
 
 ## Executive findings
 
-- 2,658 summarized reports are represented in the published summary; 2,649 are marked done and 9 are flagged in progress.
+- 2,658 summarized reports are represented in the published summary; 2,648 are marked done and 10 are flagged in progress.
 - 20 summary records explicitly fail the governmental roll-forward and 339 have no affirmative result.
-- 52,469 review items remain, including 12,275 amounts not found by the automated cited-page check and 532 explicit decision items.
-- The current flagged output contains 9 issues. These remain publication blockers until resolved or explicitly excluded with evidence.
+- 52,724 review items remain, including 12,503 amounts not found by the automated cited-page check and 532 explicit decision items.
+- The current flagged output contains 12 issues. These remain publication blockers until resolved or explicitly excluded with evidence.
 - Exact whole-row duplication was not found in the three primary CSV outputs; this does not rule out semantic double counting across statements, funds, or schedules.
 
 ## Inventory
@@ -22,9 +22,9 @@ Generated from source commit `e3487afa0a6953a428bea997359aa257fd97882c` on `2026
 | Extraction JSON reports | 2658 |
 | Independent verifier JSON reports | 2658 |
 | Summary rows | 2658 |
-| Normalized line items | 53220 |
-| Detailed financial lines | 71964 |
-| Review items | 52469 |
+| Normalized line items | 53238 |
+| Detailed financial lines | 72674 |
+| Review items | 52724 |
 | Needs Decision items | 532 |
 
 ## Existing validation coverage
@@ -32,7 +32,7 @@ Generated from source commit `e3487afa0a6953a428bea997359aa257fd97882c` on `2026
 | Check | Yes | No | Blank / not recorded |
 | --- | --- | --- | --- |
 | Governmental roll-forward | 2299 | 20 | 339 |
-| Proprietary cash flow | 366 | 2 | 2290 |
+| Proprietary cash flow | 368 | 2 | 2288 |
 | Business-type roll-forward | 855 | 14 | 1789 |
 | Balance sheet | 1656 | 9 | 993 |
 
@@ -61,6 +61,9 @@ A blank result can mean the statement or measure was not applicable, unavailable
 | Municipal_Energy_Agency_of_Nebraska_FY2025 | category | receipts[1] 'Transfer from (provision for) rate stabilization' -1,500,000: transfer recorded as a receipt; transfers belong in transfers_in/out (detail section 'other financing') |
 | Ord_FY2025 | verifier | missing: verifier: Trimmed p22 is only the right half of this schedule. The left half with row labels and the General/Public Health/Culture and Recreation/Debt Service/Public Works columns (report p61, PDF page 65) was not trimmed, so the schedule's lines are missing from detail[]. This is a trim problem (find_pages): re-trim to include PDF p65, then re-extract. (page shows Schedule of Expenditures - Modified Cash Basis - Governmental Funds (report p62), Total column: 754,343; 227,893; 119,361; 553,321; 268,053; 450,749; 319,543; 91,472; total 2,784,735) |
 | Plattsmouth_Airport_Authority_FY2025 | category | receipts[0] 'Receipts and transfers (resource inflows)' 1,245,009: transfer recorded as a receipt; transfers belong in transfers_in/out (detail section 'other financing') |
+| Sargent_Public_Schools_FY2025 | category | detail[65] 'Athletic Transfer (Receipts)' 3,000: transfer recorded as revenue; transfers belong in transfers_in/out (detail section 'other financing') |
+| Sargent_Public_Schools_FY2025 | category | detail[93] 'Transfer (Receipts)' 7,175: transfer recorded as revenue; transfers belong in transfers_in/out (detail section 'other financing') |
+| Sargent_Public_Schools_FY2025 | category | detail[125] 'Transfer (Disbursements)' 7,281: transfer recorded as expenditure; transfers belong in transfers_in/out (detail section 'other financing') |
 | Twin_Platte_NRD_FY2025 | category | detail[15] 'Chemigation fee transfer' 3,718: transfer recorded as expenditure; transfers belong in transfers_in/out (detail section 'other financing') |
 
 ## Baseline risk assessment

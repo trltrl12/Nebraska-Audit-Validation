@@ -1,9 +1,9 @@
 {
   "report_version": 1,
-  "generated_at": "2026-10-22T19:54:26.869816+00:00",
+  "generated_at": "2026-10-22T20:29:28.028131+00:00",
   "scope": {
     "source_root": "/workspace/Nebraska-Audit",
-    "source_commit": "e3487afa0a6953a428bea997359aa257fd97882c",
+    "source_commit": "d3fa659a9a62f6ba11fd35154f168f466e70b683",
     "source_branch": "main",
     "source_remote": "https://github.com/trltrl12/Nebraska-Audit.git",
     "claim": "Structural and existing-validator baseline; not comprehensive PDF verification"
@@ -15,16 +15,16 @@
     "verifier_reports": 2658,
     "trimmed_pdfs": 2659,
     "summary_rows": 2658,
-    "long_rows": 53220,
-    "detail_rows": 71964,
-    "review_rows": 52469,
-    "flagged_rows": 9,
+    "long_rows": 53238,
+    "detail_rows": 72674,
+    "review_rows": 52724,
+    "flagged_rows": 12,
     "needs_decision_rows": 532
   },
   "workflow_status": {
-    "done": 2649,
+    "done": 2648,
     "download_failed": 3,
-    "flagged": 9,
+    "flagged": 10,
     "no_statements_found": 4,
     "not_applicable": 6,
     "pending": 1
@@ -45,9 +45,9 @@
       "yes": 2299
     },
     "proprietary_cashflow": {
-      "": 2290,
+      "": 2288,
       "no": 2,
-      "yes": 366
+      "yes": 368
     },
     "business_type_rollforward": {
       "": 1789,
@@ -110,7 +110,7 @@
         "extra_rows": 0
       }
     },
-    "amount_not_found_review_items": 12275,
+    "amount_not_found_review_items": 12503,
     "decision_review_items": 532
   },
   "workbook": {
@@ -140,20 +140,20 @@
     "data_rows": {
       "Summary": 2658,
       "Needs Decision": 532,
-      "Review": 52469,
-      "Line Items": 42550,
-      "Detail Lines": 71964,
-      "Revenue by Source": 1154,
-      "Spending by Type": 1208,
-      "Spending by Department": 14395,
+      "Review": 52724,
+      "Line Items": 42563,
+      "Detail Lines": 72674,
+      "Revenue by Source": 1155,
+      "Spending by Type": 1209,
+      "Spending by Department": 14402,
       "Receipts": 3176,
       "Disbursements": 3179,
       "Financing & Balances": 9743,
-      "Proprietary": 369,
-      "Balance Sheet": 23553,
-      "Flagged": 9,
+      "Proprietary": 371,
+      "Balance Sheet": 23554,
+      "Flagged": 12,
       "Progress": 2672,
-      "Mistakes": 1406,
+      "Mistakes": 1401,
       "Mistakes by Type": 35,
       "Notes": 2658
     },
@@ -255,6 +255,33 @@
         "pages": "4"
       },
       {
+        "filename": "Sargent_Public_Schools_FY2025",
+        "check": "category",
+        "reason": "detail[65] 'Athletic Transfer (Receipts)' 3,000: transfer recorded as revenue; transfers belong in transfers_in/out (detail section 'other financing')",
+        "expected": "",
+        "actual": "",
+        "difference": "",
+        "pages": "22"
+      },
+      {
+        "filename": "Sargent_Public_Schools_FY2025",
+        "check": "category",
+        "reason": "detail[93] 'Transfer (Receipts)' 7,175: transfer recorded as revenue; transfers belong in transfers_in/out (detail section 'other financing')",
+        "expected": "",
+        "actual": "",
+        "difference": "",
+        "pages": "23"
+      },
+      {
+        "filename": "Sargent_Public_Schools_FY2025",
+        "check": "category",
+        "reason": "detail[125] 'Transfer (Disbursements)' 7,281: transfer recorded as expenditure; transfers belong in transfers_in/out (detail section 'other financing')",
+        "expected": "",
+        "actual": "",
+        "difference": "",
+        "pages": "23"
+      },
+      {
         "filename": "Twin_Platte_NRD_FY2025",
         "check": "category",
         "reason": "detail[15] 'Chemigation fee transfer' 3,718: transfer recorded as expenditure; transfers belong in transfers_in/out (detail section 'other financing')",
@@ -287,7 +314,7 @@
       },
       {
         "reason": "in a catch-all category (other); confirm nothing more specific fits",
-        "count": 559
+        "count": 557
       },
       {
         "reason": "amount not found on cited page 3; check it against the report",
@@ -295,11 +322,11 @@
       },
       {
         "reason": "in a catch-all category (other / miscellaneous revenue); confirm nothing more specific fits",
-        "count": 317
+        "count": 316
       },
       {
         "reason": "unexplained miscellaneous",
-        "count": 251
+        "count": 243
       },
       {
         "reason": "salaries and benefits combined",
@@ -329,32 +356,32 @@
   },
   "artifact_hashes": {
     "output/cashflow.xlsx": {
-      "bytes": 20607445,
-      "sha256": "817ee1fc9ab0ad5f1d0071e21af32d23f8316b41ea6db9c825149d28d3a83b21"
+      "bytes": 20671867,
+      "sha256": "e3aa8299b51f3741ca4e0379e289524996e2e4248d09e9a6ab7ffdbd935643ec"
     },
     "output/cashflow_summary.csv": {
-      "bytes": 1077080,
-      "sha256": "935751b48afeccc9684800e23a67963b69265f9c91be927eb55e0c1e03a419b6"
+      "bytes": 1077155,
+      "sha256": "2e8f59e403d3497de194d97e78238939aef2a6d1cd75af2e745670457d83f12d"
     },
     "output/cashflow_long.csv": {
-      "bytes": 13649570,
-      "sha256": "8212d85a936e4c2eb370f9a4fe2d39b2fa3b2ae070f8e4063a61af97d19c6c8a"
+      "bytes": 13653761,
+      "sha256": "2d7bc5fe26abf81e051611eb85dbc11c0d046e469dc49dd05bf931aedf88d0ef"
     },
     "output/cashflow_detail.csv": {
-      "bytes": 25417353,
-      "sha256": "f8c4e0cbfad42e6a66a64bc1113e32812b96871af879e7927e2fb1da07fdc1e2"
+      "bytes": 25671504,
+      "sha256": "dfb6c9aec41d8194b7cb1a6c5a74356edf7aff517531a1b68d283a6522d2f982"
     },
     "output/progress.csv": {
-      "bytes": 828038,
-      "sha256": "ebb32b4db3fd1d9769b28b33ff9eb1aa82647a603dca051d48dd1059dc0c78bf"
+      "bytes": 828512,
+      "sha256": "b0d732510cc64e1d5d567f99285ec16d882420c9ea05460dde79a3481d1f9d5a"
     },
     "output/flagged.csv": {
-      "bytes": 3252,
-      "sha256": "0846d39ae4a1e11b123e6e07b4941daa6a956bd93d4d5b4eb92ae37aa8dee262"
+      "bytes": 3841,
+      "sha256": "6d4ff88f761a529d7aabaeb90e7defafc0fe9f14ff22c31e30c96f6bd73eb89d"
     },
     "output/review.csv": {
-      "bytes": 12008822,
-      "sha256": "316e906f8e705e5e4dc20bae2eda0d9f89ce51e8ab30a1818b1a3773b97b62fc"
+      "bytes": 12046867,
+      "sha256": "5b855e017d201ffe7e3feca2cfa37fe183a03ae59ae1a274de1b3102070d2747"
     },
     "scripts/validate.py": {
       "bytes": 28551,

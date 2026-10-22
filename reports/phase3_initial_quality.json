@@ -1,21 +1,21 @@
 {
   "report_version": 1,
-  "generated_at": "2026-10-22T20:22:48.766348+00:00",
+  "generated_at": "2026-10-22T20:29:34.708379+00:00",
   "source_root": "/workspace/Nebraska-Audit",
   "finding_counts": {
-    "CLASS-TRANSFER-001": 178,
-    "DUP-SOURCE-001": 20,
+    "CLASS-TRANSFER-001": 182,
+    "DUP-SOURCE-001": 22,
     "REC-BAL-001": 9,
     "REC-BT-001": 14,
     "REC-GOV-001": 20,
     "REC-GOV-002": 339,
     "REC-PROP-001": 2,
-    "SOURCE-FLAG-001": 9
+    "SOURCE-FLAG-001": 12
   },
   "severity_counts": {
-    "FAIL": 54,
+    "FAIL": 57,
     "INCOMPLETE": 339,
-    "REVIEW": 198
+    "REVIEW": 204
   },
   "findings": [
     {
@@ -3736,7 +3736,7 @@
       "filename": "Lawrence-Nelson_Public_Schools_FY2025",
       "entity_name": "Lawrence-Nelson School District No. 5",
       "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund included in student transportation - regular lines'; amount=-275000.0"
+      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund included in Vehicle Operation lines'; amount=-275000.0"
     },
     {
       "rule_id": "CLASS-TRANSFER-001",
@@ -3745,6 +3745,14 @@
       "entity_name": "Lawrence-Nelson School District No. 5",
       "message": "a transfer-labeled detail record is outside other financing",
       "evidence": "page=5; section=expenditure; label='Contra: transfer to Cooperative Fund included in Special education 0-5 lines'; amount=-11044.91"
+    },
+    {
+      "rule_id": "CLASS-TRANSFER-001",
+      "severity": "REVIEW",
+      "filename": "Lawrence-Nelson_Public_Schools_FY2025",
+      "entity_name": "Lawrence-Nelson School District No. 5",
+      "message": "a transfer-labeled detail record is outside other financing",
+      "evidence": "page=13; section=revenue; label='Contra: General Fund transfer and dissolved-district cash included in account receipts'; amount=-197677.44"
     },
     {
       "rule_id": "CLASS-TRANSFER-001",
@@ -4213,6 +4221,30 @@
     {
       "rule_id": "CLASS-TRANSFER-001",
       "severity": "REVIEW",
+      "filename": "Sargent_Public_Schools_FY2025",
+      "entity_name": "Sargent School District No. 84",
+      "message": "a transfer-labeled detail record is outside other financing",
+      "evidence": "page=22; section=revenue; label='Athletic Transfer (Receipts)'; amount=3000"
+    },
+    {
+      "rule_id": "CLASS-TRANSFER-001",
+      "severity": "REVIEW",
+      "filename": "Sargent_Public_Schools_FY2025",
+      "entity_name": "Sargent School District No. 84",
+      "message": "a transfer-labeled detail record is outside other financing",
+      "evidence": "page=23; section=revenue; label='Transfer (Receipts)'; amount=7175"
+    },
+    {
+      "rule_id": "CLASS-TRANSFER-001",
+      "severity": "REVIEW",
+      "filename": "Sargent_Public_Schools_FY2025",
+      "entity_name": "Sargent School District No. 84",
+      "message": "a transfer-labeled detail record is outside other financing",
+      "evidence": "page=23; section=expenditure; label='Transfer (Disbursements)'; amount=7281"
+    },
+    {
+      "rule_id": "CLASS-TRANSFER-001",
+      "severity": "REVIEW",
       "filename": "Schuyler_Community_Schools_FY2025",
       "entity_name": "Schuyler Community Schools",
       "message": "a transfer-labeled detail record is outside other financing",
@@ -4557,6 +4589,22 @@
     {
       "rule_id": "DUP-SOURCE-001",
       "severity": "REVIEW",
+      "filename": "Cody_Kilgore_Public_School_FY2025",
+      "entity_name": "Cody-Kilgore Unified Schools, District No. 30",
+      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
+      "evidence": "page=19; schedule=Schedule of Activity Fund; fund=Activities; department=District; label='Restricted grants'; amount=500; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
+    },
+    {
+      "rule_id": "DUP-SOURCE-001",
+      "severity": "REVIEW",
+      "filename": "Crete_Public_Schools_FY2025",
+      "entity_name": "Saline County School District No. 2 (Crete Public Schools)",
+      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
+      "evidence": "page=18; schedule=Activity Fund - Receipts, Disbursements and Cash Balances; fund=Activity; department=; label='Spanish club'; amount=245; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
+    },
+    {
+      "rule_id": "DUP-SOURCE-001",
+      "severity": "REVIEW",
       "filename": "Elba_Public_Schools_FY2025",
       "entity_name": "Elba School District No. 103",
       "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
@@ -4741,6 +4789,30 @@
     {
       "rule_id": "SOURCE-FLAG-001",
       "severity": "FAIL",
+      "filename": "Sargent_Public_Schools_FY2025",
+      "entity_name": "Sargent School District No. 84",
+      "message": "existing validator flag (category): detail[65] 'Athletic Transfer (Receipts)' 3,000: transfer recorded as revenue; transfers belong in transfers_in/out (detail section 'other financing')",
+      "evidence": "pages=22"
+    },
+    {
+      "rule_id": "SOURCE-FLAG-001",
+      "severity": "FAIL",
+      "filename": "Sargent_Public_Schools_FY2025",
+      "entity_name": "Sargent School District No. 84",
+      "message": "existing validator flag (category): detail[93] 'Transfer (Receipts)' 7,175: transfer recorded as revenue; transfers belong in transfers_in/out (detail section 'other financing')",
+      "evidence": "pages=23"
+    },
+    {
+      "rule_id": "SOURCE-FLAG-001",
+      "severity": "FAIL",
+      "filename": "Sargent_Public_Schools_FY2025",
+      "entity_name": "Sargent School District No. 84",
+      "message": "existing validator flag (category): detail[125] 'Transfer (Disbursements)' 7,281: transfer recorded as expenditure; transfers belong in transfers_in/out (detail section 'other financing')",
+      "evidence": "pages=23"
+    },
+    {
+      "rule_id": "SOURCE-FLAG-001",
+      "severity": "FAIL",
       "filename": "Twin_Platte_NRD_FY2025",
       "entity_name": "Twin Platte Natural Resources District",
       "message": "existing validator flag (category): detail[15] 'Chemigation fee transfer' 3,718: transfer recorded as expenditure; transfers belong in transfers_in/out (detail section 'other financing')",
@@ -4748,6 +4820,21 @@
     }
   ],
   "priority_queue": [
+    {
+      "tier": 1,
+      "filename": "Sargent_Public_Schools_FY2025",
+      "entity_name": "Sargent School District No. 84",
+      "failures": 3,
+      "incomplete": 0,
+      "review_findings": 3,
+      "existing_review_items": 46,
+      "page_check_items": 15,
+      "decision_items": 0,
+      "rule_ids": [
+        "CLASS-TRANSFER-001",
+        "SOURCE-FLAG-001"
+      ]
+    },
     {
       "tier": 1,
       "filename": "Oshkosh_FY2025",
@@ -11006,6 +11093,18 @@
     },
     {
       "tier": 3,
+      "filename": "Waterloo_FY2025",
+      "entity_name": "Village of Waterloo",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 66,
+      "page_check_items": 17,
+      "decision_items": 1,
+      "rule_ids": []
+    },
+    {
+      "tier": 3,
       "filename": "Stromsburg_FY2025",
       "entity_name": "City of Stromsburg",
       "failures": 0,
@@ -11097,18 +11196,6 @@
       "review_findings": 0,
       "existing_review_items": 38,
       "page_check_items": 14,
-      "decision_items": 1,
-      "rule_ids": []
-    },
-    {
-      "tier": 3,
-      "filename": "Waterloo_FY2025",
-      "entity_name": "Village of Waterloo",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 0,
-      "existing_review_items": 57,
-      "page_check_items": 13,
       "decision_items": 1,
       "rule_ids": []
     },
@@ -14996,8 +15083,8 @@
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
-      "existing_review_items": 211,
-      "page_check_items": 175,
+      "existing_review_items": 430,
+      "page_check_items": 393,
       "decision_items": 0,
       "rule_ids": []
     },
@@ -15377,18 +15464,6 @@
     },
     {
       "tier": 3,
-      "filename": "Platte_County_FY2025",
-      "entity_name": "Platte County",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 0,
-      "existing_review_items": 53,
-      "page_check_items": 26,
-      "decision_items": 0,
-      "rule_ids": []
-    },
-    {
-      "tier": 3,
       "filename": "Lewellen_FY2025",
       "entity_name": "Village of Lewellen",
       "failures": 0,
@@ -15407,6 +15482,18 @@
       "incomplete": 0,
       "review_findings": 0,
       "existing_review_items": 46,
+      "page_check_items": 26,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 3,
+      "filename": "Platte_County_FY2025",
+      "entity_name": "Platte County",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 45,
       "page_check_items": 26,
       "decision_items": 0,
       "rule_ids": []
@@ -18653,7 +18740,7 @@
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
-      "existing_review_items": 76,
+      "existing_review_items": 73,
       "page_check_items": 9,
       "decision_items": 0,
       "rule_ids": []
@@ -18714,18 +18801,6 @@
       "incomplete": 0,
       "review_findings": 0,
       "existing_review_items": 50,
-      "page_check_items": 9,
-      "decision_items": 0,
-      "rule_ids": []
-    },
-    {
-      "tier": 3,
-      "filename": "Sargent_Public_Schools_FY2025",
-      "entity_name": "Sargent School District No. 84",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 0,
-      "existing_review_items": 36,
       "page_check_items": 9,
       "decision_items": 0,
       "rule_ids": []
@@ -26208,18 +26283,6 @@
     },
     {
       "tier": 3,
-      "filename": "South_Platte_Public_Schools_FY2025",
-      "entity_name": "South Platte Public Schools",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 0,
-      "existing_review_items": 41,
-      "page_check_items": 2,
-      "decision_items": 0,
-      "rule_ids": []
-    },
-    {
-      "tier": 3,
       "filename": "Beemer_FY2025",
       "entity_name": "Village of Beemer",
       "failures": 0,
@@ -26246,6 +26309,18 @@
       "tier": 3,
       "filename": "Howard_County_FY2025",
       "entity_name": "Howard County",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 38,
+      "page_check_items": 2,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 3,
+      "filename": "South_Platte_Public_Schools_FY2025",
+      "entity_name": "South Platte Public Schools",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -26882,6 +26957,34 @@
     },
     {
       "tier": 3,
+      "filename": "Crete_Public_Schools_FY2025",
+      "entity_name": "Saline County School District No. 2 (Crete Public Schools)",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 1,
+      "existing_review_items": 81,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": [
+        "DUP-SOURCE-001"
+      ]
+    },
+    {
+      "tier": 3,
+      "filename": "Lawrence-Nelson_Public_Schools_FY2025",
+      "entity_name": "Lawrence-Nelson School District No. 5",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 3,
+      "existing_review_items": 79,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": [
+        "CLASS-TRANSFER-001"
+      ]
+    },
+    {
+      "tier": 3,
       "filename": "Lincoln_Public_Schools_FY2025",
       "entity_name": "Lancaster County School District No. 001 - Lincoln Public Schools",
       "failures": 0,
@@ -26952,40 +27055,12 @@
     },
     {
       "tier": 3,
-      "filename": "Cody_Kilgore_Public_School_FY2025",
-      "entity_name": "Cody-Kilgore Unified Schools, District No. 30",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 61,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
       "filename": "Heartland_Community_Schools_FY2025",
       "entity_name": "Heartland School District No. 96",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 4,
       "existing_review_items": 60,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Hemingford_Public_Schools_FY2025",
-      "entity_name": "Hemingford Public Schools, District No. 10",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 3,
-      "existing_review_items": 58,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": [
@@ -27050,11 +27125,11 @@
     },
     {
       "tier": 3,
-      "filename": "Lawrence-Nelson_Public_Schools_FY2025",
-      "entity_name": "Lawrence-Nelson School District No. 5",
+      "filename": "Hemingford_Public_Schools_FY2025",
+      "entity_name": "Hemingford Public Schools, District No. 10",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 3,
       "existing_review_items": 54,
       "page_check_items": 0,
       "decision_items": 0,
@@ -27130,6 +27205,21 @@
       "decision_items": 0,
       "rule_ids": [
         "CLASS-TRANSFER-001"
+      ]
+    },
+    {
+      "tier": 3,
+      "filename": "Cody_Kilgore_Public_School_FY2025",
+      "entity_name": "Cody-Kilgore Unified Schools, District No. 30",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 2,
+      "existing_review_items": 49,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": [
+        "CLASS-TRANSFER-001",
+        "DUP-SOURCE-001"
       ]
     },
     {
@@ -27960,18 +28050,6 @@
     },
     {
       "tier": 4,
-      "filename": "Crete_Public_Schools_FY2025",
-      "entity_name": "Saline County School District No. 2 (Crete Public Schools)",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 0,
-      "existing_review_items": 58,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": []
-    },
-    {
-      "tier": 4,
       "filename": "Geneva_FY2025",
       "entity_name": "City of Geneva",
       "failures": 0,
@@ -28086,18 +28164,6 @@
       "incomplete": 0,
       "review_findings": 0,
       "existing_review_items": 51,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": []
-    },
-    {
-      "tier": 4,
-      "filename": "Grand_Island_Public_Schools_FY2025",
-      "entity_name": "Hall County School District 2 - Grand Island Public Schools",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 0,
-      "existing_review_items": 50,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": []
@@ -28274,6 +28340,18 @@
       "tier": 4,
       "filename": "Conestoga_Public_Schools_FY2025",
       "entity_name": "Conestoga Public Schools District No. 56",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 47,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Grand_Island_Public_Schools_FY2025",
+      "entity_name": "Hall County School District 2 - Grand Island Public Schools",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -29244,6 +29322,18 @@
     },
     {
       "tier": 4,
+      "filename": "Plainview_FY2025",
+      "entity_name": "City of Plainview",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 32,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Shickley_Public_Schools_FY2025",
       "entity_name": "Shickley Public Schools District No. 54",
       "failures": 0,
@@ -29462,18 +29552,6 @@
       "tier": 4,
       "filename": "Logan_County_FY2025",
       "entity_name": "Logan County, Nebraska",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 0,
-      "existing_review_items": 30,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": []
-    },
-    {
-      "tier": 4,
-      "filename": "Plainview_FY2025",
-      "entity_name": "City of Plainview",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
