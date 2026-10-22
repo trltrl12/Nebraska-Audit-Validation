@@ -6,7 +6,7 @@ This investigation covers the initial Tier 1 group plus subsequent source-flag a
 
 ## Result
 
-Twenty-six discrepancies were independently confirmed as inconsistencies printed in the source reports. Five retained-source completeness defects, six validator false positives, and one classification ambiguity were also confirmed. No financial value was corrected, and the correction log remains empty.
+Thirty discrepancies were independently confirmed as inconsistencies printed in the source reports. Five retained-source completeness defects, six validator false positives, and one classification ambiguity were also confirmed. No financial value was corrected, and the correction log remains empty.
 
 | Entity | Check | Difference | Confirmed source issue |
 | --- | --- | ---: | --- |
@@ -36,6 +36,10 @@ Twenty-six discrepancies were independently confirmed as inconsistencies printed
 | Elkhorn Public Schools | Governmental receipt lines vs total | $500.00 | Printed lines omit a $500 contribution included in the printed total. |
 | Wilcox-Hildreth Public School | Nutrition Fund operating receipts | $12,622.00 | Receipt lines total $121,511; printed total is $134,133. |
 | Douglas County SID 633 | Balance-sheet equation | $4,908.00 | Liabilities, deferred inflows, and net position exceed assets by $4,908. |
+| Crofton Community Schools | Interfund transfer elimination | $200,000.00 | Governmental funds print $200,000 of net transfers in rather than eliminating internal transfers. |
+| Doniphan-Trumbull Public Schools | Governmental disbursement lines vs total | $2.00 | Printed lines total $10,018,234; printed total is $10,018,236. |
+| Springfield | Governmental roll-forward | $2.00 | Opposing $1 receipt and disbursement differences produce a $2 line-based ending difference. |
+| Yutan | Governmental roll-forward | $3.00 | Printed lines imply $904,770; printed ending balance is $904,773. |
 
 Hickman is a different problem: the retained PDF does not include the governmental statements needed to establish beginning fund balance, so the check is `INCOMPLETE_SOURCE`, not a confirmed financial discrepancy.
 
