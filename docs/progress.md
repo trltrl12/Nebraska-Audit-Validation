@@ -12,8 +12,18 @@ Completed:
 - Generated machine-readable metrics and a human-readable baseline report.
 - Preserved both source and validation roles: no source artifacts were overwritten.
 
+## Phase 2 — Validation architecture
+
+Status: implemented; validation pending final test and review.
+
+Completed:
+
+- Defined immutable source observations, standardized facts, verification assessments, human decisions, and correction logs.
+- Defined independent status dimensions and enforceable record-level publication gates.
+- Defined aggregate compatibility rules for accounting basis, scope, period, value type, interfund activity, and duplicates.
+- Recorded accounting comparability rules and three unresolved SID policy questions without changing source data.
+
 Next:
 
-- Phase 2: define versioned record-level verification statuses, publication gates, source-of-truth tables, and accounting-scope rules.
 - Phase 3: implement independent checks against raw/retained evidence and semantic double-count controls.
 - Phase 4: prioritize the nine current flagged entities, twenty failed roll-forwards, twelve thousand page-presence review items, and material classification risks.

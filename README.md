@@ -18,3 +18,5 @@ python -m unittest discover -s tests -v
 ```
 
 The generated report identifies current validation exceptions and coverage gaps. Counts describe the inspected source snapshot; they are not claims that every financial figure has been independently verified.
+
+Phase 2 adds the normalized source-of-truth schema, independent verification dimensions, accounting-scope rules, and enforceable publication gates. See [verification_architecture.md](docs/verification_architecture.md) and [accounting_scope_rules.md](docs/accounting_scope_rules.md).
