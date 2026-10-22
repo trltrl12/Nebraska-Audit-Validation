@@ -32,3 +32,13 @@ python -m nebraska_audit_validation.quality \
 ```
 
 Evidence-confirmed false positives are removed from active failure and review queues through `config/resolved_findings.json`. Their investigation evidence remains in `records/investigation_log.csv`.
+
+Build the independent validation workbook with:
+
+```bash
+python -m nebraska_audit_validation.workbook \
+  --repo /workspace/Nebraska-Audit-Validation \
+  --output reports/nebraska_audit_validation.xlsx
+```
+
+The validation workbook is separate from the read-only source workbook at `/workspace/Nebraska-Audit/output/cashflow.xlsx`.
