@@ -28,3 +28,17 @@ Next:
 
 - Phase 3: run and refine independent checks against raw/retained evidence and semantic double-count controls.
 - Phase 4: prioritize the nine current flagged entities, twenty failed roll-forwards, twelve thousand page-presence review items, and material classification risks.
+
+## Phase 4 — Initial financial audit
+
+Status: in progress.
+
+Completed:
+
+- Independently inspected the cited statement-page images for Oshkosh, Wymore, Sutherland, and Arlington.
+- Confirmed eight internal source-report discrepancies across governmental, business-type, and balance-sheet checks.
+- Recorded publication treatment without changing or forcing any financial value.
+
+Next:
+
+- Investigate the remaining Tier 1 entities, separating source-report defects from extraction, classification, and completeness defects.
