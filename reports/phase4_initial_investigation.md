@@ -6,7 +6,7 @@ This investigation covers the initial Tier 1 group plus subsequent source-flag a
 
 ## Result
 
-Forty discrepancies were independently confirmed as inconsistencies printed in the source reports. Five retained-source completeness defects, six validator false positives, and one classification ambiguity were also confirmed. No financial value was corrected, and the correction log remains empty.
+Forty-eight discrepancies were independently confirmed as inconsistencies printed in the source reports. Five retained-source completeness defects, six validator false positives, and one classification ambiguity were also confirmed. No financial value was corrected, and the correction log remains empty.
 
 | Entity | Check | Difference | Confirmed source issue |
 | --- | --- | ---: | --- |
@@ -50,6 +50,14 @@ Forty discrepancies were independently confirmed as inconsistencies printed in t
 | Hay Springs | Governmental roll-forward | $2.00 | Receipt and disbursement rounding differences produce a $2 ending difference. |
 | Hayes Center | Governmental roll-forward | $2.00 | Receipt and disbursement differences produce a $2 ending difference. |
 | Lodgepole | Governmental roll-forward | $2.00 | Disbursement and ending-balance differences produce a $2 line-based gap. |
+| Millard Public Schools | Governmental disbursement lines vs total | $24,876.00 | The statement total exceeds its lines by the equipment amount shown on the budget schedule. |
+| Minatare | Proprietary cash-flow roll-forward | $80,000.00 | Noncapital-financing lines total $(89,650), while the printed section total is $(9,650). |
+| Minden Public Schools | Governmental roll-forward | $2.00 | Receipt and disbursement line-to-total differences produce a $2 ending difference. |
+| Nebraska Cooperative Republican Platte Enhancement Project | Governmental revenue lines vs total | $17,115.63 | Printed revenue lines are below Total revenues by the grant revenue displayed on another schedule. |
+| Oakland | Governmental roll-forward | $2.00 | Receipt and disbursement line-to-total differences produce a $2 ending difference. |
+| Rushville | Business-type roll-forward | $2.00 | Operating and nonoperating line-to-subtotal differences produce a $2 ending difference. |
+| Sarpy County SID 23 | Business-type roll-forward | $4,020.00 | Operating-expense lines omit the Telephone amount shown on the enterprise budget schedule. |
+| Weston | Governmental roll-forward | $612.00 | Keno capital outlay is shown separately after being included in the total-column General government amount. |
 
 Hickman is a different problem: the retained PDF does not include the governmental statements needed to establish beginning fund balance, so the check is `INCOMPLETE_SOURCE`, not a confirmed financial discrepancy.
 
@@ -77,4 +85,4 @@ The existing JSON already records the source-report discrepancies in `report_dis
 
 ## Next investigation targets
 
-The remaining active source flags have now been classified. The next investigation group prioritizes unreviewed reconciliation failures and material classification risks. Sargent, Lower Loup NRD, Twin Platte NRD, and Municipal Energy Agency false positives have been removed from the active validation queue.
+The active source flags and all reconciliation failures have now been independently classified. The next investigation group prioritizes incomplete checks and material classification risks. Sargent, Lower Loup NRD, Twin Platte NRD, and Municipal Energy Agency false positives have been removed from the active validation queue.

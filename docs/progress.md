@@ -36,8 +36,8 @@ Status: in progress.
 
 Completed:
 
-- Independently inspected cited statement-page evidence for fourteen Tier 1 entities.
-- Confirmed forty internal source-report discrepancies across governmental, business-type, proprietary cash-flow, and balance-sheet checks.
+- Independently inspected cited statement-page evidence for fifty-one Tier 1 entities.
+- Confirmed forty-eight internal source-report discrepancies across governmental, business-type, proprietary cash-flow, and balance-sheet checks.
 - Confirmed five incomplete retained-source cases, six validator false positives, and one unresolved classification ambiguity.
 - Recorded publication treatment without changing or forcing any financial value.
 - Refreshed the baseline and quality scan to source commit `d3fa659a9a62f6ba11fd35154f168f466e70b683`.
@@ -45,5 +45,5 @@ Completed:
 
 Next:
 
-- Investigate the remaining Tier 1 entities, separating source-report defects from extraction, classification, and completeness defects.
+- Continue into the incomplete and review queues, separating source-report defects from extraction, classification, and completeness defects.
 - Continue investigating unresolved Tier 1 flags and classification risks.
