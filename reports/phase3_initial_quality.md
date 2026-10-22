@@ -1,25 +1,25 @@
 # Phase 3 Initial Quality Scan
 
-Generated `2026-10-22T20:35:49.633808+00:00` from read-only source outputs.
+Generated `2026-10-22T20:38:20.940867+00:00` from read-only source outputs.
 
 > These are automated findings and review candidates. A candidate is not a confirmed financial error until source evidence establishes it.
 
 ## Findings
 
-- Failures: 53
+- Failures: 51
 - Incomplete checks: 339
-- Review candidates: 201
+- Review candidates: 199
 
 | Rule | Count |
 | --- | ---: |
-| CLASS-TRANSFER-001 | 179 |
+| CLASS-TRANSFER-001 | 177 |
 | DUP-SOURCE-001 | 22 |
 | REC-BAL-001 | 9 |
 | REC-BT-001 | 14 |
 | REC-GOV-001 | 20 |
 | REC-GOV-002 | 339 |
 | REC-PROP-001 | 2 |
-| SOURCE-FLAG-001 | 8 |
+| SOURCE-FLAG-001 | 6 |
 
 ## Highest-priority entities
 
@@ -47,7 +47,6 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 | 1 | Hay_Springs_FY2025 | City of Hay Springs | 1 | 0 | 0 | 50 | 0 | 2 |
 | 1 | Nebraska_Cooperative_Republican_Platte_Enhancement_Project_N-CORPE_FY2025 | Nebraska Cooperative Republican Platte Enhancement Project (N-CORPE) | 1 | 0 | 0 | 28 | 0 | 2 |
 | 1 | Fairmont_FY2025 | Village of Fairmont | 1 | 0 | 0 | 26 | 0 | 2 |
-| 1 | Twin_Platte_NRD_FY2025 | Twin Platte Natural Resources District | 1 | 0 | 1 | 17 | 3 | 1 |
 | 1 | Weston_FY2025 | Village of Weston | 1 | 0 | 0 | 27 | 2 | 1 |
 | 1 | Byron_Community_Building_District_B2526 | Byron Community Building District (Thayer County) | 1 | 0 | 0 | 14 | 2 | 1 |
 | 1 | Ord_FY2025 | City of Ord | 1 | 0 | 1 | 33 | 1 | 1 |
@@ -60,7 +59,6 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 | 1 | Cuming_County_FY2025 | Cuming County | 1 | 0 | 0 | 38 | 5 | 0 |
 | 1 | Rushville_FY2025 | City of Rushville | 1 | 0 | 0 | 47 | 2 | 0 |
 | 1 | Doniphan_Trumbull_Public_Schools_FY2025 | Doniphan-Trumbull Public School District No. 40-0126 | 1 | 0 | 0 | 48 | 1 | 0 |
-| 1 | Lower_Loup_NRD_FY2025 | Lower Loup Natural Resources District | 1 | 0 | 1 | 38 | 1 | 0 |
 | 1 | Leigh_FY2025 | Village of Leigh | 1 | 0 | 0 | 14 | 1 | 0 |
 | 1 | Millard_Public_Schools_FY2025 | School District No. 17 - Millard Public Schools | 1 | 0 | 1 | 76 | 0 | 0 |
 | 1 | Crofton_Community_Schools_FY2025 | Crofton Community Schools District No. 96 | 1 | 0 | 0 | 60 | 0 | 0 |
@@ -77,6 +75,8 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 | 1 | Douglas_County_SID_633_FY2025 | Sanitary and Improvement District No. 633 of Douglas County | 1 | 0 | 0 | 8 | 0 | 0 |
 | 1 | Sarpy_County_SID_374_FY2025 | Sanitary and Improvement District No. 374 of Sarpy County | 1 | 0 | 0 | 6 | 0 | 0 |
 | 2 | Elm_Creek_Housing_Agency_FY2025 | Elm Creek Housing Agency | 0 | 1 | 0 | 9 | 0 | 2 |
+| 2 | Elwood_Housing_Authority_FY2025 | Elwood Housing Authority | 0 | 1 | 0 | 36 | 17 | 1 |
+| 2 | Dannebrog_Housing_Agency_-_Oak_Street_Manor_FY2025 | Dannebrog Housing Agency - Oak Street Manor | 0 | 1 | 0 | 21 | 14 | 1 |
 
 ## Interpretation limits
 

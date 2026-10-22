@@ -1,21 +1,21 @@
 {
   "report_version": 1,
-  "generated_at": "2026-10-22T20:35:49.633808+00:00",
+  "generated_at": "2026-10-22T20:38:20.940867+00:00",
   "source_root": "/workspace/Nebraska-Audit",
   "finding_counts": {
-    "CLASS-TRANSFER-001": 179,
+    "CLASS-TRANSFER-001": 177,
     "DUP-SOURCE-001": 22,
     "REC-BAL-001": 9,
     "REC-BT-001": 14,
     "REC-GOV-001": 20,
     "REC-GOV-002": 339,
     "REC-PROP-001": 2,
-    "SOURCE-FLAG-001": 8
+    "SOURCE-FLAG-001": 6
   },
   "severity_counts": {
-    "FAIL": 53,
+    "FAIL": 51,
     "INCOMPLETE": 339,
-    "REVIEW": 201
+    "REVIEW": 199
   },
   "findings": [
     {
@@ -3829,14 +3829,6 @@
     {
       "rule_id": "CLASS-TRANSFER-001",
       "severity": "REVIEW",
-      "filename": "Lower_Loup_NRD_FY2025",
-      "entity_name": "Lower Loup Natural Resources District",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=revenue; label='Irrigation Rights Transfer Fees'; amount=5700"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
       "filename": "McCook_Public_Schools_FY2025",
       "entity_name": "McCook Public School District No. 17",
       "message": "a transfer-labeled detail record is outside other financing",
@@ -4365,14 +4357,6 @@
     {
       "rule_id": "CLASS-TRANSFER-001",
       "severity": "REVIEW",
-      "filename": "Twin_Platte_NRD_FY2025",
-      "entity_name": "Twin Platte Natural Resources District",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Chemigation fee transfer'; amount=3718.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
       "filename": "UMO_N_HO_N_Nation_Public_School_FY2025",
       "entity_name": "Umonhon Nation Public Schools District No. 16",
       "message": "a transfer-labeled detail record is outside other financing",
@@ -4733,14 +4717,6 @@
     {
       "rule_id": "SOURCE-FLAG-001",
       "severity": "FAIL",
-      "filename": "Lower_Loup_NRD_FY2025",
-      "entity_name": "Lower Loup Natural Resources District",
-      "message": "existing validator flag (category): detail[17] 'Irrigation Rights Transfer Fees' 5,700: transfer recorded as revenue; transfers belong in transfers_in/out (detail section 'other financing')",
-      "evidence": "pages=7"
-    },
-    {
-      "rule_id": "SOURCE-FLAG-001",
-      "severity": "FAIL",
       "filename": "Ord_FY2025",
       "entity_name": "City of Ord",
       "message": "existing validator flag (verifier): missing: verifier: Trimmed p22 is only the right half of this schedule. The left half with row labels and the General/Public Health/Culture and Recreation/Debt Service/Public Works columns (report p61, PDF page 65) was not trimmed, so the schedule's lines are missing from detail[]. This is a trim problem (find_pages): re-trim to include PDF p65, then re-extract. (page shows Schedule of Expenditures - Modified Cash Basis - Governmental Funds (report p62), Total column: 754,343; 227,893; 119,361; 553,321; 268,053; 450,749; 319,543; 91,472; total 2,784,735)",
@@ -4753,14 +4729,6 @@
       "entity_name": "Plattsmouth Airport Authority",
       "message": "existing validator flag (category): receipts[0] 'Receipts and transfers (resource inflows)' 1,245,009: transfer recorded as a receipt; transfers belong in transfers_in/out (detail section 'other financing')",
       "evidence": "pages=4"
-    },
-    {
-      "rule_id": "SOURCE-FLAG-001",
-      "severity": "FAIL",
-      "filename": "Twin_Platte_NRD_FY2025",
-      "entity_name": "Twin Platte Natural Resources District",
-      "message": "existing validator flag (category): detail[15] 'Chemigation fee transfer' 3,718: transfer recorded as expenditure; transfers belong in transfers_in/out (detail section 'other financing')",
-      "evidence": "pages=7"
     }
   ],
   "priority_queue": [
@@ -5061,21 +5029,6 @@
     },
     {
       "tier": 1,
-      "filename": "Twin_Platte_NRD_FY2025",
-      "entity_name": "Twin Platte Natural Resources District",
-      "failures": 1,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 17,
-      "page_check_items": 3,
-      "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001",
-        "SOURCE-FLAG-001"
-      ]
-    },
-    {
-      "tier": 1,
       "filename": "Weston_FY2025",
       "entity_name": "Village of Weston",
       "failures": 1,
@@ -5241,21 +5194,6 @@
       "decision_items": 0,
       "rule_ids": [
         "REC-GOV-001"
-      ]
-    },
-    {
-      "tier": 1,
-      "filename": "Lower_Loup_NRD_FY2025",
-      "entity_name": "Lower Loup Natural Resources District",
-      "failures": 1,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 38,
-      "page_check_items": 1,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001",
-        "SOURCE-FLAG-001"
       ]
     },
     {
@@ -12337,6 +12275,18 @@
       "incomplete": 0,
       "review_findings": 0,
       "existing_review_items": 43,
+      "page_check_items": 3,
+      "decision_items": 1,
+      "rule_ids": []
+    },
+    {
+      "tier": 3,
+      "filename": "Twin_Platte_NRD_FY2025",
+      "entity_name": "Twin Platte Natural Resources District",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 17,
       "page_check_items": 3,
       "decision_items": 1,
       "rule_ids": []
@@ -26552,6 +26502,18 @@
       "rule_ids": [
         "CLASS-TRANSFER-001"
       ]
+    },
+    {
+      "tier": 3,
+      "filename": "Lower_Loup_NRD_FY2025",
+      "entity_name": "Lower Loup Natural Resources District",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 38,
+      "page_check_items": 1,
+      "decision_items": 0,
+      "rule_ids": []
     },
     {
       "tier": 3,

@@ -6,7 +6,7 @@ This initial investigation examined the first fourteen Tier 1 entities in the Ph
 
 ## Result
 
-Seventeen discrepancies were independently confirmed as inconsistencies printed in the source reports. One retained-source completeness defect and four validator false positives were also confirmed. No financial value was corrected, and the correction log remains empty.
+Seventeen discrepancies were independently confirmed as inconsistencies printed in the source reports. Five retained-source completeness defects, six validator false positives, and one classification ambiguity were also confirmed. No financial value was corrected, and the correction log remains empty.
 
 | Entity | Check | Difference | Confirmed source issue |
 | --- | --- | ---: | --- |
@@ -34,6 +34,12 @@ The Municipal Energy Agency flag is a validator false positive. “Transfer from
 
 The October 22 Sargent Public Schools re-trim produced three more validator false positives. On retained PDF pages 22–23 (printed statement pages 49–50), “Athletic Transfer” and “Transfer” are Activities Fund account names. The flagged amounts are printed in the Receipts or Disbursements columns, while each row's Transfers in (out) value is zero. The $3,000 and $7,175 receipts and $7,281 disbursement should remain in their printed columns. The generic transfer-word rule needs statement-column context rather than reclassification of these amounts.
 
+Lower Loup NRD's $5,700 “Irrigation Rights Transfer Fees” is printed within its Schedule of Revenues and is fee revenue. Twin Platte NRD's $3,718 “Chemigation fee transfer” is printed within General Fund expenditures and is a fee remittance; its report presents only one fund. Both are confirmed false positives and are removed from active queues.
+
+Plattsmouth Airport Authority remains incomplete because its retained page combines receipts and transfers into a single $1,245,009 inflow and the governmental funds operating statement needed to separate the components is missing. Hall County remains under review because its Insurance Fund labels $5,356,069 “Other Receipts Interfund Transfers,” separately reports $668,362 of “Interfund Transfers,” and presents the first amount as Other receipts in the county-wide statement.
+
+Three remaining source flags are confirmed retained-source defects. Boelus lacks Exhibit A Page 2 with disbursements by function. Leigh lacks the continuation of its General Fund departmental schedule. Ord retains only the right half of its governmental expenditure schedule, leaving the row labels and major fund columns absent. These flags remain active until the source PDFs are re-trimmed and re-extracted.
+
 ## Audit treatment
 
 - Preserve the original lines and printed totals as separate source observations.
@@ -48,4 +54,4 @@ The existing JSON already records the source-report discrepancies in `report_dis
 
 ## Next investigation targets
 
-The next group prioritizes remaining active validator flags and material transfer/classification cases, beginning with Boelus, Hall County, Leigh, Lower Loup NRD, Ord, Plattsmouth Airport Authority, and Twin Platte NRD. Sargent's three reviewed false positives have been removed from the active validation queue.
+The remaining active source flags have now been classified. The next investigation group prioritizes unreviewed reconciliation failures and material classification risks. Sargent, Lower Loup NRD, Twin Platte NRD, and Municipal Energy Agency false positives have been removed from the active validation queue.

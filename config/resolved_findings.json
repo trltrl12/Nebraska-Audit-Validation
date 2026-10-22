@@ -43,6 +43,28 @@
       ],
       "decision": "Confirmed Activities Fund account name; amount is printed in Disbursements and Transfers in (out) is zero.",
       "evidence": "records/investigation_log.csv"
+    },
+    {
+      "filename": "Lower_Loup_NRD_FY2025",
+      "source_page": "7",
+      "original_label": "Irrigation Rights Transfer Fees",
+      "rule_ids": [
+        "CLASS-TRANSFER-001",
+        "SOURCE-FLAG-001"
+      ],
+      "decision": "Confirmed fee revenue for transferring irrigation rights, printed within the Schedule of Revenues and included in Total Revenues.",
+      "evidence": "records/investigation_log.csv"
+    },
+    {
+      "filename": "Twin_Platte_NRD_FY2025",
+      "source_page": "7",
+      "original_label": "Chemigation fee transfer",
+      "rule_ids": [
+        "CLASS-TRANSFER-001",
+        "SOURCE-FLAG-001"
+      ],
+      "decision": "Confirmed fee remittance printed within General Fund expenditures and included in Total Expenses; the district reports only one fund.",
+      "evidence": "records/investigation_log.csv"
     }
   ]
 }
