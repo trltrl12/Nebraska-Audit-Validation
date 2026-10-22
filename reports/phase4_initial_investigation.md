@@ -6,7 +6,7 @@ This investigation covers the initial Tier 1 group plus subsequent source-flag a
 
 ## Result
 
-Thirty discrepancies were independently confirmed as inconsistencies printed in the source reports. Five retained-source completeness defects, six validator false positives, and one classification ambiguity were also confirmed. No financial value was corrected, and the correction log remains empty.
+Thirty-five discrepancies were independently confirmed as inconsistencies printed in the source reports. Five retained-source completeness defects, six validator false positives, and one classification ambiguity were also confirmed. No financial value was corrected, and the correction log remains empty.
 
 | Entity | Check | Difference | Confirmed source issue |
 | --- | --- | ---: | --- |
@@ -40,6 +40,11 @@ Thirty discrepancies were independently confirmed as inconsistencies printed in 
 | Doniphan-Trumbull Public Schools | Governmental disbursement lines vs total | $2.00 | Printed lines total $10,018,234; printed total is $10,018,236. |
 | Springfield | Governmental roll-forward | $2.00 | Opposing $1 receipt and disbursement differences produce a $2 line-based ending difference. |
 | Yutan | Governmental roll-forward | $3.00 | Printed lines imply $904,770; printed ending balance is $904,773. |
+| Fairmont | Balance-sheet equation | $356,893.00 | Combined net position omits the governmental Street restriction. |
+| Henderson | Balance-sheet equation | $2.00 | Printed assets and net position differ by $2; their lines meet at the midpoint. |
+| Pilger | Balance-sheet equation | $3,460.00 | Business-type restricted cash is understated by $3,460 in the combined statement. |
+| Sarpy County SID 373 | Balance-sheet equation | $9,798.00 | The imbalance is twice the $4,899 property-tax/deferred-inflow amount. |
+| Sarpy County SID 374 | Balance-sheet equation | $6,684.00 | The imbalance is twice the $3,342 property-tax/deferred-inflow amount. |
 
 Hickman is a different problem: the retained PDF does not include the governmental statements needed to establish beginning fund balance, so the check is `INCOMPLETE_SOURCE`, not a confirmed financial discrepancy.
 
