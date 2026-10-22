@@ -35,8 +35,9 @@ Status: in progress.
 
 Completed:
 
-- Independently inspected the cited statement-page images for Oshkosh, Wymore, Sutherland, and Arlington.
-- Confirmed eight internal source-report discrepancies across governmental, business-type, and balance-sheet checks.
+- Independently inspected cited statement-page evidence for fourteen Tier 1 entities.
+- Confirmed seventeen internal source-report discrepancies across governmental, business-type, proprietary cash-flow, and balance-sheet checks.
+- Confirmed one incomplete retained-source case (Hickman) and one validator false positive (Municipal Energy Agency of Nebraska).
 - Recorded publication treatment without changing or forcing any financial value.
 
 Next:
