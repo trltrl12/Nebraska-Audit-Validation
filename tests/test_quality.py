@@ -4,7 +4,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from nebraska_audit_validation.quality import _resolution_matches, _semantic_duplicate_candidates
+from nebraska_audit_validation.quality import (
+    _requires_governmental_reconciliation,
+    _resolution_matches,
+    _semantic_duplicate_candidates,
+)
 
 
 def detail(**changes):
@@ -40,6 +44,30 @@ class SemanticDuplicateTest(unittest.TestCase):
         self.assertEqual(len(findings), 1)
         self.assertEqual(findings[0].rule_id, "DUP-SOURCE-001")
         self.assertEqual(findings[0].severity, "REVIEW")
+
+
+class GovernmentalApplicabilityTest(unittest.TestCase):
+    def test_business_only_document_does_not_require_governmental_reconciliation(self):
+        document = {
+            "governmental": None,
+            "receipts": [{"fund_type": "business-type", "amount": 100}],
+            "disbursements": [{"fund_type": "business-type", "amount": 80}],
+            "beginning_fund_balance": None,
+            "ending_fund_balance": None,
+        }
+        self.assertFalse(_requires_governmental_reconciliation(document))
+
+    def test_incomplete_governmental_section_stays_in_scope(self):
+        document = {
+            "governmental": None,
+            "receipts": [{"fund_type": "governmental", "amount": 100}],
+            "beginning_fund_balance": None,
+            "ending_fund_balance": 100,
+        }
+        self.assertTrue(_requires_governmental_reconciliation(document))
+
+    def test_missing_document_stays_in_scope(self):
+        self.assertTrue(_requires_governmental_reconciliation(None))
 
 
 class ResolvedFindingTest(unittest.TestCase):

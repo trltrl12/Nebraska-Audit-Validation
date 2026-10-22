@@ -42,6 +42,22 @@ def _read_resolutions(path: Path | None) -> list[dict]:
     return list(data.get("resolutions", []))
 
 
+def _requires_governmental_reconciliation(source_document: Mapping | None) -> bool:
+    """Return whether the source document contains governmental financial facts."""
+
+    if source_document is None:
+        return True
+    if source_document.get("governmental") is not None:
+        return True
+    for key in ("receipts", "disbursements"):
+        if any(item.get("fund_type") == "governmental" for item in source_document.get(key, [])):
+            return True
+    return any(
+        source_document.get(key) is not None
+        for key in ("beginning_fund_balance", "ending_fund_balance")
+    )
+
+
 def _resolution_matches(
     resolutions: Sequence[Mapping],
     *,
@@ -123,6 +139,13 @@ def analyze(
     flagged = _read_csv(output / "flagged.csv")
     progress = _read_csv(output / "progress.csv")
     resolutions = _read_resolutions(resolved_findings)
+    source_documents = {}
+    for path in (output / "json").glob("*.json"):
+        try:
+            source_documents[path.stem] = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            # Missing or unreadable evidence must remain visible as incomplete.
+            source_documents[path.stem] = None
 
     findings: list[Finding] = []
     entity_by_file = {_stem(row["filename"]): row.get("entity_name", "") for row in summary}
@@ -140,7 +163,11 @@ def analyze(
             value = row.get(column, "")
             if value == "no":
                 findings.append(Finding(rule_id, "FAIL", filename, entity, f"{label} failed"))
-            elif column == "reconciles" and not value:
+            elif (
+                column == "reconciles"
+                and not value
+                and _requires_governmental_reconciliation(source_documents.get(filename))
+            ):
                 findings.append(
                     Finding(
                         rule_id="REC-GOV-002",
@@ -328,7 +355,7 @@ def render_markdown(data: Mapping) -> str:
             "",
             "- Matching amounts alone are never treated as duplicates. Duplicate candidates require the same source file, page, schedule, fund, department, original label, and amount.",
             "- Transfer-word findings require context review; labels such as transfer fees may describe external revenue rather than interfund activity.",
-            "- Blank reconciliation results remain incomplete until applicability and source completeness are established.",
+            "- A blank governmental reconciliation is incomplete only when the source JSON contains governmental financial facts; business-only reports are not applicable.",
             "- The queue prioritizes investigation; it does not assign publication eligibility by itself.",
         ]
     )

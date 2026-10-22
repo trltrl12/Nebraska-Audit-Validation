@@ -1,13 +1,13 @@
 # Phase 3 Initial Quality Scan
 
-Generated `2026-10-22T20:38:20.940867+00:00` from read-only source outputs.
+Generated `2026-10-22T21:04:01.671142+00:00` from read-only source outputs.
 
 > These are automated findings and review candidates. A candidate is not a confirmed financial error until source evidence establishes it.
 
 ## Findings
 
 - Failures: 51
-- Incomplete checks: 339
+- Incomplete checks: 1
 - Review candidates: 199
 
 | Rule | Count |
@@ -17,7 +17,7 @@ Generated `2026-10-22T20:38:20.940867+00:00` from read-only source outputs.
 | REC-BAL-001 | 9 |
 | REC-BT-001 | 14 |
 | REC-GOV-001 | 20 |
-| REC-GOV-002 | 339 |
+| REC-GOV-002 | 1 |
 | REC-PROP-001 | 2 |
 | SOURCE-FLAG-001 | 6 |
 
@@ -31,15 +31,7 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 | 1 | Wymore_FY2025 | City of Wymore | 2 | 0 | 0 | 39 | 4 | 1 |
 | 1 | Sutherland_FY2025 | Village of Sutherland | 2 | 0 | 0 | 80 | 2 | 0 |
 | 1 | Arlington_FY2025 | Village of Arlington | 2 | 0 | 0 | 45 | 0 | 0 |
-| 1 | Pathfinder_Irrigation_District_FY2025 | Pathfinder Irrigation District | 1 | 1 | 0 | 15 | 0 | 2 |
-| 1 | Gering_Irrigation_District_FY2025 | Gering Irrigation District | 1 | 1 | 0 | 22 | 10 | 1 |
 | 1 | Hickman_FY2025 | City of Hickman | 1 | 1 | 0 | 14 | 2 | 1 |
-| 1 | Central_Irrigation_District_FY2025 | Central Irrigation District | 1 | 1 | 0 | 25 | 11 | 0 |
-| 1 | Laurel_Housing_Authority_FY2025 | Housing Authority of the City of Laurel, Nebraska | 1 | 1 | 0 | 7 | 3 | 0 |
-| 1 | North_Platte_Airport_Authority_FY2025 | North Platte Airport Authority | 1 | 1 | 0 | 73 | 1 | 0 |
-| 1 | Panhandle_Area_Development_District_FY2025 | Panhandle Area Development District | 1 | 1 | 0 | 27 | 0 | 0 |
-| 1 | South_Central_Area_Agency_on_Aging_FY2025 | South Central Nebraska Area Agency on Aging | 1 | 1 | 0 | 17 | 0 | 0 |
-| 1 | Hall_County_Housing_Authority_FY2025 | Hall County Housing Authority | 1 | 1 | 0 | 12 | 0 | 0 |
 | 1 | Arcadia_FY2025 | Village of Arcadia | 1 | 0 | 1 | 39 | 0 | 3 |
 | 1 | Springfield_FY2025 | City of Springfield | 1 | 0 | 0 | 39 | 0 | 3 |
 | 1 | Plattsmouth_Airport_Authority_FY2025 | Plattsmouth Airport Authority | 1 | 0 | 0 | 15 | 5 | 2 |
@@ -47,6 +39,8 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 | 1 | Hay_Springs_FY2025 | City of Hay Springs | 1 | 0 | 0 | 50 | 0 | 2 |
 | 1 | Nebraska_Cooperative_Republican_Platte_Enhancement_Project_N-CORPE_FY2025 | Nebraska Cooperative Republican Platte Enhancement Project (N-CORPE) | 1 | 0 | 0 | 28 | 0 | 2 |
 | 1 | Fairmont_FY2025 | Village of Fairmont | 1 | 0 | 0 | 26 | 0 | 2 |
+| 1 | Pathfinder_Irrigation_District_FY2025 | Pathfinder Irrigation District | 1 | 0 | 0 | 15 | 0 | 2 |
+| 1 | Gering_Irrigation_District_FY2025 | Gering Irrigation District | 1 | 0 | 0 | 22 | 10 | 1 |
 | 1 | Weston_FY2025 | Village of Weston | 1 | 0 | 0 | 27 | 2 | 1 |
 | 1 | Byron_Community_Building_District_B2526 | Byron Community Building District (Thayer County) | 1 | 0 | 0 | 14 | 2 | 1 |
 | 1 | Ord_FY2025 | City of Ord | 1 | 0 | 1 | 33 | 1 | 1 |
@@ -56,8 +50,11 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 | 1 | Lodgepole_FY2025 | Village of Lodgepole | 1 | 0 | 0 | 16 | 0 | 1 |
 | 1 | Yutan_FY2025 | City of Yutan | 1 | 0 | 0 | 3 | 0 | 1 |
 | 1 | Boelus_FY2025 | Village of Boelus | 1 | 0 | 0 | 42 | 19 | 0 |
+| 1 | Central_Irrigation_District_FY2025 | Central Irrigation District | 1 | 0 | 0 | 25 | 11 | 0 |
 | 1 | Cuming_County_FY2025 | Cuming County | 1 | 0 | 0 | 38 | 5 | 0 |
+| 1 | Laurel_Housing_Authority_FY2025 | Housing Authority of the City of Laurel, Nebraska | 1 | 0 | 0 | 7 | 3 | 0 |
 | 1 | Rushville_FY2025 | City of Rushville | 1 | 0 | 0 | 47 | 2 | 0 |
+| 1 | North_Platte_Airport_Authority_FY2025 | North Platte Airport Authority | 1 | 0 | 0 | 73 | 1 | 0 |
 | 1 | Doniphan_Trumbull_Public_Schools_FY2025 | Doniphan-Trumbull Public School District No. 40-0126 | 1 | 0 | 0 | 48 | 1 | 0 |
 | 1 | Leigh_FY2025 | Village of Leigh | 1 | 0 | 0 | 14 | 1 | 0 |
 | 1 | Millard_Public_Schools_FY2025 | School District No. 17 - Millard Public Schools | 1 | 0 | 1 | 76 | 0 | 0 |
@@ -69,18 +66,21 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 | 1 | Henderson_FY2025 | City of Henderson | 1 | 0 | 0 | 35 | 0 | 0 |
 | 1 | Amherst_Public_Schools_FY2025 | Amherst Public Schools District No. 119 | 1 | 0 | 0 | 32 | 0 | 0 |
 | 1 | Minatare_FY2025 | City of Minatare | 1 | 0 | 0 | 30 | 0 | 0 |
+| 1 | Panhandle_Area_Development_District_FY2025 | Panhandle Area Development District | 1 | 0 | 0 | 27 | 0 | 0 |
 | 1 | Hayes_Center_FY2025 | Village of Hayes Center | 1 | 0 | 0 | 25 | 0 | 0 |
 | 1 | Sarpy_County_SID_23_FY2025 | Sanitary and Improvement District No. 23 of Sarpy County | 1 | 0 | 0 | 17 | 0 | 0 |
+| 1 | South_Central_Area_Agency_on_Aging_FY2025 | South Central Nebraska Area Agency on Aging | 1 | 0 | 0 | 17 | 0 | 0 |
+| 1 | Hall_County_Housing_Authority_FY2025 | Hall County Housing Authority | 1 | 0 | 0 | 12 | 0 | 0 |
 | 1 | Sarpy_County_SID_373_FY2025 | Sanitary and Improvement District No. 373 of Sarpy County | 1 | 0 | 0 | 9 | 0 | 0 |
 | 1 | Douglas_County_SID_633_FY2025 | Sanitary and Improvement District No. 633 of Douglas County | 1 | 0 | 0 | 8 | 0 | 0 |
 | 1 | Sarpy_County_SID_374_FY2025 | Sanitary and Improvement District No. 374 of Sarpy County | 1 | 0 | 0 | 6 | 0 | 0 |
-| 2 | Elm_Creek_Housing_Agency_FY2025 | Elm Creek Housing Agency | 0 | 1 | 0 | 9 | 0 | 2 |
-| 2 | Elwood_Housing_Authority_FY2025 | Elwood Housing Authority | 0 | 1 | 0 | 36 | 17 | 1 |
-| 2 | Dannebrog_Housing_Agency_-_Oak_Street_Manor_FY2025 | Dannebrog Housing Agency - Oak Street Manor | 0 | 1 | 0 | 21 | 14 | 1 |
+| 3 | Sutton_FY2025 | City of Sutton, Nebraska | 0 | 0 | 0 | 46 | 1 | 3 |
+| 3 | York_Public_Schools_FY2025 | York School District No. 12 | 0 | 0 | 1 | 88 | 0 | 3 |
+| 3 | Omaha_FY2025 | City of Omaha | 0 | 0 | 0 | 63 | 0 | 3 |
 
 ## Interpretation limits
 
 - Matching amounts alone are never treated as duplicates. Duplicate candidates require the same source file, page, schedule, fund, department, original label, and amount.
 - Transfer-word findings require context review; labels such as transfer fees may describe external revenue rather than interfund activity.
-- Blank reconciliation results remain incomplete until applicability and source completeness are established.
+- A blank governmental reconciliation is incomplete only when the source JSON contains governmental financial facts; business-only reports are not applicable.
 - The queue prioritizes investigation; it does not assign publication eligibility by itself.
