@@ -26,5 +26,5 @@ Completed:
 
 Next:
 
-- Phase 3: implement independent checks against raw/retained evidence and semantic double-count controls.
+- Phase 3: run and refine independent checks against raw/retained evidence and semantic double-count controls.
 - Phase 4: prioritize the nine current flagged entities, twenty failed roll-forwards, twelve thousand page-presence review items, and material classification risks.

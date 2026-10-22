@@ -20,3 +20,12 @@ python -m unittest discover -s tests -v
 The generated report identifies current validation exceptions and coverage gaps. Counts describe the inspected source snapshot; they are not claims that every financial figure has been independently verified.
 
 Phase 2 adds the normalized source-of-truth schema, independent verification dimensions, accounting-scope rules, and enforceable publication gates. See [verification_architecture.md](docs/verification_architecture.md) and [accounting_scope_rules.md](docs/accounting_scope_rules.md).
+
+Run the initial Phase 3 quality and triage scan with:
+
+```bash
+python -m nebraska_audit_validation.quality \
+  --source /workspace/Nebraska-Audit \
+  --json reports/phase3_initial_quality.json \
+  --markdown reports/phase3_initial_quality.md
+```
