@@ -14,14 +14,15 @@ Completed:
 
 ## Phase 2 — Validation architecture
 
-Status: implemented; validation pending final test and review.
+Status: completed for the initial architecture and approved SID policy decisions.
 
 Completed:
 
 - Defined immutable source observations, standardized facts, verification assessments, human decisions, and correction logs.
 - Defined independent status dimensions and enforceable record-level publication gates.
 - Defined aggregate compatibility rules for accounting basis, scope, period, value type, interfund activity, and duplicates.
-- Recorded accounting comparability rules and three unresolved SID policy questions without changing source data.
+- Recorded accounting comparability rules and resolved three SID policy questions without changing source data.
+- Stored the approved SID treatments as versioned, machine-readable classification rules.
 
 Next:
 

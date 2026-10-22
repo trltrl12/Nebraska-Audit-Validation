@@ -1,0 +1,43 @@
+{
+  "ruleset": "nebraska-local-government-classification",
+  "version": "1.0.0",
+  "effective_date": "2026-10-22",
+  "rules": [
+    {
+      "rule_id": "SID-WARRANT-001",
+      "applies_to": "SID reports with a line labeled Warrants issued not registered",
+      "priority": 100,
+      "decision": "Classify from the report's statement section, maturity, and notes.",
+      "fallback": "UNDER_REVIEW",
+      "classification_support": "SOURCE_NOTE",
+      "preserve_original_label": true,
+      "prohibited_defaults": [
+        "always current payable",
+        "always long-term debt"
+      ]
+    },
+    {
+      "rule_id": "SID-ACTUAL-BASIS-001",
+      "applies_to": "SID detail schedules with an Actual column",
+      "priority": 100,
+      "decision": "Use the accounting or budgetary basis printed on the schedule.",
+      "fallback": "UNDER_REVIEW",
+      "classification_support": "DIRECT_LABEL",
+      "preserve_original_label": true,
+      "prohibited_defaults": [
+        "always budgetary basis",
+        "always GAAP"
+      ]
+    },
+    {
+      "rule_id": "SID-MAINT-001",
+      "applies_to": "SID financial lines labeled Maintenance without a stated function",
+      "priority": 100,
+      "decision": "Use fund purpose, schedule heading, or notes when available; otherwise classify as streets/highways.",
+      "fallback": "streets/highways",
+      "classification_support": "HUMAN_DECISION",
+      "preserve_original_label": true,
+      "fallback_must_be_recorded": true
+    }
+  ]
+}
