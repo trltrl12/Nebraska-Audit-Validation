@@ -2,11 +2,11 @@
 
 ## Scope
 
-This initial investigation examined the first fourteen Tier 1 entities in the Phase 3 priority queue. The review compared the extracted JSON calculations with actual retained statement-page images or text and inspected whether the retained source population was complete for the failed check. It did not verify every figure or schedule for these entities.
+This investigation covers the initial Tier 1 group plus subsequent source-flag and reconciliation batches. The review compared extracted JSON calculations with retained statement-page images or text and inspected whether the retained source population was complete for each failed check. It did not verify every figure or schedule for these entities.
 
 ## Result
 
-Seventeen discrepancies were independently confirmed as inconsistencies printed in the source reports. Five retained-source completeness defects, six validator false positives, and one classification ambiguity were also confirmed. No financial value was corrected, and the correction log remains empty.
+Twenty-two discrepancies were independently confirmed as inconsistencies printed in the source reports. Five retained-source completeness defects, six validator false positives, and one classification ambiguity were also confirmed. No financial value was corrected, and the correction log remains empty.
 
 | Entity | Check | Difference | Confirmed source issue |
 | --- | --- | ---: | --- |
@@ -27,6 +27,11 @@ Seventeen discrepancies were independently confirmed as inconsistencies printed 
 | Panhandle Area Development District | Operating expense lines vs total | $73.00 | Displayed lines total $312,072; printed total is $312,145. |
 | South Central Area Agency on Aging | Business-type roll-forward | $2.00 | Revenues less expenditures produces $114,108; printed change is $114,106. |
 | Hall County Housing Authority | Balance-sheet equation | $5,337.00 | Enterprise noncurrent-assets total omits the displayed right-of-use asset. |
+| Amherst Public Schools | Governmental disbursement lines vs total | $10,000.00 | Printed disbursement lines total $6,782,394; printed total is $6,772,394. |
+| Arcadia | Balance-sheet equation | $270.00 | Governmental assets are $270 below governmental net position with zero liabilities. |
+| Byron Community Building District | Total resources | $2,010.00 | Beginning balances plus receipts equal $93,515; handwritten total resources is $95,525. |
+| Byron Community Building District | Cash roll-forward | $20.00 | Printed components imply $18,494; handwritten ending balance is $18,514. |
+| Cuming County | Governmental disbursement total | $2,667.00 | Culture and Recreation fund columns exceed the printed total by $2,667. |
 
 Hickman is a different problem: the retained PDF does not include the governmental statements needed to establish beginning fund balance, so the check is `INCOMPLETE_SOURCE`, not a confirmed financial discrepancy.
 
