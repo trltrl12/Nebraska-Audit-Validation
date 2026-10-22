@@ -6,7 +6,7 @@ This investigation covers the initial Tier 1 group plus subsequent source-flag a
 
 ## Result
 
-Thirty-five discrepancies were independently confirmed as inconsistencies printed in the source reports. Five retained-source completeness defects, six validator false positives, and one classification ambiguity were also confirmed. No financial value was corrected, and the correction log remains empty.
+Forty discrepancies were independently confirmed as inconsistencies printed in the source reports. Five retained-source completeness defects, six validator false positives, and one classification ambiguity were also confirmed. No financial value was corrected, and the correction log remains empty.
 
 | Entity | Check | Difference | Confirmed source issue |
 | --- | --- | ---: | --- |
@@ -45,6 +45,11 @@ Thirty-five discrepancies were independently confirmed as inconsistencies printe
 | Pilger | Balance-sheet equation | $3,460.00 | Business-type restricted cash is understated by $3,460 in the combined statement. |
 | Sarpy County SID 373 | Balance-sheet equation | $9,798.00 | The imbalance is twice the $4,899 property-tax/deferred-inflow amount. |
 | Sarpy County SID 374 | Balance-sheet equation | $6,684.00 | The imbalance is twice the $3,342 property-tax/deferred-inflow amount. |
+| Elwood | Business-type roll-forward | $2.00 | Operating-expense lines are $2 below the printed total. |
+| Elwood | Governmental balance statement | $28,000.00 | Governmental assets exceed liabilities and fund balance by $28,000. |
+| Hay Springs | Governmental roll-forward | $2.00 | Receipt and disbursement rounding differences produce a $2 ending difference. |
+| Hayes Center | Governmental roll-forward | $2.00 | Receipt and disbursement differences produce a $2 ending difference. |
+| Lodgepole | Governmental roll-forward | $2.00 | Disbursement and ending-balance differences produce a $2 line-based gap. |
 
 Hickman is a different problem: the retained PDF does not include the governmental statements needed to establish beginning fund balance, so the check is `INCOMPLETE_SOURCE`, not a confirmed financial discrepancy.
 
