@@ -38,14 +38,15 @@ Completed:
 
 - Independently inspected cited statement-page evidence for fifty-one Tier 1 entities.
 - Confirmed forty-eight internal source-report discrepancies across governmental, business-type, proprietary cash-flow, and balance-sheet checks.
-- Confirmed five incomplete retained-source cases, six validator false positives, and one unresolved classification ambiguity.
+- Confirmed five incomplete retained-source cases, seventeen validator false positives, and one unresolved classification ambiguity.
 - Recorded publication treatment without changing or forcing any financial value.
 - Refreshed the baseline and quality scan to source commit `d3fa659a9a62f6ba11fd35154f168f466e70b683`.
 - Removed six evidence-confirmed validator false positives from active failure and review queues through exact finding resolutions; retained their completed investigation evidence.
 - Corrected governmental reconciliation applicability: 338 business-only reports have no governmental financial facts and are now treated as not applicable rather than incomplete; Hickman remains incomplete.
 - Removed 176 explicit transfer-elimination and reclassification records from the classification-review queue; these contra facts prevent double counting rather than misclassifying operating activity.
+- Independently reviewed all 22 semantic-duplicate candidates and confirmed that each pair is printed in separate receipt and disbursement columns.
 
 Next:
 
-- Investigate the 23 remaining classification and semantic-duplicate review candidates.
+- Continue publication-gate and retained page-evidence review; Hall County's interfund receipt classification remains unresolved.
 - Continue investigating unresolved Tier 1 flags and classification risks.

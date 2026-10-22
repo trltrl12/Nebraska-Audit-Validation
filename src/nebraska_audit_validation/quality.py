@@ -114,6 +114,10 @@ def _semantic_duplicate_candidates(rows: Sequence[Mapping[str, str]]) -> list[Fi
     for key, matches in groups.items():
         if len(matches) < 2:
             continue
+        sections = {row.get("section", "") for row in matches}
+        if sections == {"revenue", "expenditure"} and len(matches) == 2:
+            # A schedule row may print equal receipts and disbursements in distinct columns.
+            continue
         classifications = {
             (row.get("section", ""), row.get("category", ""), row.get("detail_category", ""))
             for row in matches

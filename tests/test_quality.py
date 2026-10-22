@@ -46,6 +46,10 @@ class SemanticDuplicateTest(unittest.TestCase):
         self.assertEqual(findings[0].rule_id, "DUP-SOURCE-001")
         self.assertEqual(findings[0].severity, "REVIEW")
 
+    def test_equal_receipt_and_disbursement_columns_are_distinct_facts(self):
+        rows = [detail(), detail(section="expenditure", category="student activities")]
+        self.assertEqual(_semantic_duplicate_candidates(rows), [])
+
 
 class GovernmentalApplicabilityTest(unittest.TestCase):
     def test_business_only_document_does_not_require_governmental_reconciliation(self):

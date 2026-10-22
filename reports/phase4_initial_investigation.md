@@ -6,7 +6,7 @@ This investigation covers the initial Tier 1 group plus subsequent source-flag a
 
 ## Result
 
-Forty-eight discrepancies were independently confirmed as inconsistencies printed in the source reports. Five retained-source completeness defects, six validator false positives, and one classification ambiguity were also confirmed. No financial value was corrected, and the correction log remains empty.
+Forty-eight discrepancies were independently confirmed as inconsistencies printed in the source reports. Five retained-source completeness defects, seventeen validator false positives, and one classification ambiguity were also confirmed. No financial value was corrected, and the correction log remains empty.
 
 | Entity | Check | Difference | Confirmed source issue |
 | --- | --- | ---: | --- |

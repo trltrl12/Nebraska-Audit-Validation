@@ -1,10 +1,9 @@
 {
   "report_version": 1,
-  "generated_at": "2026-10-22T21:05:36.254536+00:00",
+  "generated_at": "2026-10-22T21:07:08.733550+00:00",
   "source_root": "/workspace/Nebraska-Audit",
   "finding_counts": {
     "CLASS-TRANSFER-001": 1,
-    "DUP-SOURCE-001": 22,
     "REC-BAL-001": 9,
     "REC-BT-001": 14,
     "REC-GOV-001": 20,
@@ -15,7 +14,7 @@
   "severity_counts": {
     "FAIL": 51,
     "INCOMPLETE": 1,
-    "REVIEW": 23
+    "REVIEW": 1
   },
   "findings": [
     {
@@ -393,182 +392,6 @@
       "entity_name": "Hall County",
       "message": "a transfer-labeled detail record is outside other financing",
       "evidence": "page=7; section=revenue; label='Other Receipts Interfund Transfers'; amount=5356069"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Alliance_Public_Schools_FY2025",
-      "entity_name": "Alliance Public Schools, District No. 6",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=21; schedule=Activity Funds Schedule; fund=Activity; department=Athletics; label='Golf - Girls'; amount=500; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Alliance_Public_Schools_FY2025",
-      "entity_name": "Alliance Public Schools, District No. 6",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=21; schedule=Activity Funds Schedule; fund=Activity; department=Athletics; label='Volleyball'; amount=6501; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Alliance_Public_Schools_FY2025",
-      "entity_name": "Alliance Public Schools, District No. 6",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=21; schedule=Activity Funds Schedule; fund=Activity; department=Athletics; label='Tennis - Girls'; amount=50; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Alliance_Public_Schools_FY2025",
-      "entity_name": "Alliance Public Schools, District No. 6",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=21; schedule=Activity Funds Schedule; fund=Activity; department=Athletics; label='Softball - Girls'; amount=5759; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Chambers_Public_Schools_FY2025",
-      "entity_name": "Chambers School District No. 137",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=20; schedule=Schedule of Receipts, Disbursements, Transfers and Fund Balance - Activities Fund; fund=Activities; department=; label='Speech'; amount=500; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Cody_Kilgore_Public_School_FY2025",
-      "entity_name": "Cody-Kilgore Unified Schools, District No. 30",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=19; schedule=Schedule of Activity Fund; fund=Activities; department=District; label='Restricted grants'; amount=500; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Crete_Public_Schools_FY2025",
-      "entity_name": "Saline County School District No. 2 (Crete Public Schools)",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=18; schedule=Activity Fund - Receipts, Disbursements and Cash Balances; fund=Activity; department=; label='Spanish club'; amount=245; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Elba_Public_Schools_FY2025",
-      "entity_name": "Elba School District No. 103",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=18; schedule=Activities Fund by account; fund=Activities; department=Book Fair; label='Book Fair'; amount=225; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Elgin_Public_Schools_FY2025",
-      "entity_name": "Elgin Public Schools District No. 18",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=16; schedule=Activities Fund Changes in Cash Balances; fund=Activities; department=; label='Football concession stand (EPS/PJ)'; amount=6536; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Gothenburg_Public_Schools_FY2025",
-      "entity_name": "Dawson County School District No. 20 (Gothenburg Public Schools)",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=17; schedule=Activities Fund Schedule; fund=Activities; department=; label='Football'; amount=22777; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Gothenburg_Public_Schools_FY2025",
-      "entity_name": "Dawson County School District No. 20 (Gothenburg Public Schools)",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=17; schedule=Activities Fund Schedule; fund=Activities; department=; label='Basketball'; amount=37584; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Gothenburg_Public_Schools_FY2025",
-      "entity_name": "Dawson County School District No. 20 (Gothenburg Public Schools)",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=17; schedule=Activities Fund Schedule; fund=Activities; department=; label='Track'; amount=21765; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Gothenburg_Public_Schools_FY2025",
-      "entity_name": "Dawson County School District No. 20 (Gothenburg Public Schools)",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=17; schedule=Activities Fund Schedule; fund=Activities; department=; label='Wrestling'; amount=13179; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Gothenburg_Public_Schools_FY2025",
-      "entity_name": "Dawson County School District No. 20 (Gothenburg Public Schools)",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=17; schedule=Activities Fund Schedule; fund=Activities; department=; label='Golf'; amount=7243; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Gothenburg_Public_Schools_FY2025",
-      "entity_name": "Dawson County School District No. 20 (Gothenburg Public Schools)",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=17; schedule=Activities Fund Schedule; fund=Activities; department=; label='Softball'; amount=3035; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Gothenburg_Public_Schools_FY2025",
-      "entity_name": "Dawson County School District No. 20 (Gothenburg Public Schools)",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=17; schedule=Activities Fund Schedule; fund=Activities; department=; label='Speech'; amount=6615; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Gothenburg_Public_Schools_FY2025",
-      "entity_name": "Dawson County School District No. 20 (Gothenburg Public Schools)",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=17; schedule=Activities Fund Schedule; fund=Activities; department=; label='Senior class'; amount=700; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Gothenburg_Public_Schools_FY2025",
-      "entity_name": "Dawson County School District No. 20 (Gothenburg Public Schools)",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=17; schedule=Activities Fund Schedule; fund=Activities; department=; label='FFA'; amount=63477; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Litchfield_Public_Schools_FY2025",
-      "entity_name": "Litchfield School District No. 15",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=21; schedule=Schedule of Receipts, Transfers and Fund Balance - Activities Fund; fund=Activities; department=District Activities; label='District Activities'; amount=5223; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "McCook_Public_Schools_FY2025",
-      "entity_name": "McCook Public School District No. 17",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=18; schedule=Activities Fund Schedule; fund=Activities; department=FBLA; label='FBLA'; amount=165; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Neligh_Oakdale_Schools_FY2025",
-      "entity_name": "Neligh-Oakdale Public Schools, District No. 9, Antelope County",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=14; schedule=Activities Fund Schedule; fund=Activities; department=Equipment Fund; label='Equipment Fund'; amount=2059; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
-    },
-    {
-      "rule_id": "DUP-SOURCE-001",
-      "severity": "REVIEW",
-      "filename": "Potter_Dix_Public_Schools_FY2025",
-      "entity_name": "Potter-Dix School District No. 9",
-      "message": "2 detail records share the same source location, label, and amount; confirm they represent distinct facts",
-      "evidence": "page=17; schedule=Detailed Schedule of Receipts and Disbursements - Activities Fund; fund=Activities; department=Superintendent; label='Superintendent'; amount=2816.57; classifications=[('expenditure', 'student activities', 'student activity spending'), ('revenue', 'charges for services/fees', 'student activity receipts')]"
     },
     {
       "rule_id": "SOURCE-FLAG-001",
@@ -4170,13 +3993,11 @@
       "entity_name": "McCook Public School District No. 17",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 52,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "DUP-SOURCE-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -8708,13 +8529,11 @@
       "entity_name": "Potter-Dix School District No. 9",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 57,
       "page_check_items": 12,
       "decision_items": 0,
-      "rule_ids": [
-        "DUP-SOURCE-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -8722,13 +8541,11 @@
       "entity_name": "Litchfield School District No. 15",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 53,
       "page_check_items": 12,
       "decision_items": 0,
-      "rule_ids": [
-        "DUP-SOURCE-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -12540,13 +12357,11 @@
       "entity_name": "Elba School District No. 103",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 46,
       "page_check_items": 8,
       "decision_items": 0,
-      "rule_ids": [
-        "DUP-SOURCE-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -14714,13 +14529,11 @@
       "entity_name": "Chambers School District No. 137",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 39,
       "page_check_items": 7,
       "decision_items": 0,
-      "rule_ids": [
-        "DUP-SOURCE-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -19811,90 +19624,6 @@
       "rule_ids": []
     },
     {
-      "tier": 3,
-      "filename": "Crete_Public_Schools_FY2025",
-      "entity_name": "Saline County School District No. 2 (Crete Public Schools)",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 81,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "DUP-SOURCE-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Cody_Kilgore_Public_School_FY2025",
-      "entity_name": "Cody-Kilgore Unified Schools, District No. 30",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 49,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "DUP-SOURCE-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Neligh_Oakdale_Schools_FY2025",
-      "entity_name": "Neligh-Oakdale Public Schools, District No. 9, Antelope County",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 46,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "DUP-SOURCE-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Gothenburg_Public_Schools_FY2025",
-      "entity_name": "Dawson County School District No. 20 (Gothenburg Public Schools)",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 9,
-      "existing_review_items": 43,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "DUP-SOURCE-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Alliance_Public_Schools_FY2025",
-      "entity_name": "Alliance Public Schools, District No. 6",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 4,
-      "existing_review_items": 38,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "DUP-SOURCE-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Elgin_Public_Schools_FY2025",
-      "entity_name": "Elgin Public Schools District No. 18",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 34,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "DUP-SOURCE-001"
-      ]
-    },
-    {
       "tier": 4,
       "filename": "Aurora_Public_Schools_FY2025",
       "entity_name": "Aurora School District No. 504",
@@ -19926,6 +19655,18 @@
       "incomplete": 0,
       "review_findings": 0,
       "existing_review_items": 82,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Crete_Public_Schools_FY2025",
+      "entity_name": "Saline County School District No. 2 (Crete Public Schools)",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 81,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": []
@@ -20484,6 +20225,18 @@
     },
     {
       "tier": 4,
+      "filename": "Cody_Kilgore_Public_School_FY2025",
+      "entity_name": "Cody-Kilgore Unified Schools, District No. 30",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 49,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Grant_FY2025",
       "entity_name": "City of Grant, Nebraska",
       "failures": 0,
@@ -20678,6 +20431,18 @@
       "tier": 4,
       "filename": "Crawford_FY2025",
       "entity_name": "City of Crawford",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 46,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Neligh_Oakdale_Schools_FY2025",
+      "entity_name": "Neligh-Oakdale Public Schools, District No. 9, Antelope County",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -20918,6 +20683,18 @@
       "tier": 4,
       "filename": "Gordon_FY2025",
       "entity_name": "City of Gordon",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 43,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Gothenburg_Public_Schools_FY2025",
+      "entity_name": "Dawson County School District No. 20 (Gothenburg Public Schools)",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -21456,6 +21233,18 @@
     },
     {
       "tier": 4,
+      "filename": "Alliance_Public_Schools_FY2025",
+      "entity_name": "Alliance Public Schools, District No. 6",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 38,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Boone_Central_Schools_FY2025",
       "entity_name": "Boone Central School District No. 1",
       "failures": 0,
@@ -21746,6 +21535,18 @@
       "tier": 4,
       "filename": "Educational_Service_Unit_16_FY2025",
       "entity_name": "Educational Service Unit No. 16",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 34,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Elgin_Public_Schools_FY2025",
+      "entity_name": "Elgin Public Schools District No. 18",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,

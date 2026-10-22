@@ -1,6 +1,6 @@
 # Phase 3 Initial Quality Scan
 
-Generated `2026-10-22T21:05:36.254536+00:00` from read-only source outputs.
+Generated `2026-10-22T21:07:08.733550+00:00` from read-only source outputs.
 
 > These are automated findings and review candidates. A candidate is not a confirmed financial error until source evidence establishes it.
 
@@ -8,12 +8,11 @@ Generated `2026-10-22T21:05:36.254536+00:00` from read-only source outputs.
 
 - Failures: 51
 - Incomplete checks: 1
-- Review candidates: 23
+- Review candidates: 1
 
 | Rule | Count |
 | --- | ---: |
 | CLASS-TRANSFER-001 | 1 |
-| DUP-SOURCE-001 | 22 |
 | REC-BAL-001 | 9 |
 | REC-BT-001 | 14 |
 | REC-GOV-001 | 20 |
