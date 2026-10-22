@@ -5,6 +5,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from nebraska_audit_validation.quality import (
+    _is_transfer_adjustment,
     _requires_governmental_reconciliation,
     _resolution_matches,
     _semantic_duplicate_candidates,
@@ -68,6 +69,21 @@ class GovernmentalApplicabilityTest(unittest.TestCase):
 
     def test_missing_document_stays_in_scope(self):
         self.assertTrue(_requires_governmental_reconciliation(None))
+
+
+class TransferAdjustmentTest(unittest.TestCase):
+    def test_explicit_contra_is_not_a_classification_candidate(self):
+        self.assertTrue(
+            _is_transfer_adjustment(
+                "Contra: transfer to Depreciation Fund included in Student transportation"
+            )
+        )
+
+    def test_net_of_transfer_is_not_a_classification_candidate(self):
+        self.assertTrue(_is_transfer_adjustment("Pupil transportation (net of 225,000 transfer)"))
+
+    def test_ambiguous_interfund_receipt_stays_in_review(self):
+        self.assertFalse(_is_transfer_adjustment("Other Receipts Interfund Transfers"))
 
 
 class ResolvedFindingTest(unittest.TestCase):

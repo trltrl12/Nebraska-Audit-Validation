@@ -42,9 +42,10 @@ Completed:
 - Recorded publication treatment without changing or forcing any financial value.
 - Refreshed the baseline and quality scan to source commit `d3fa659a9a62f6ba11fd35154f168f466e70b683`.
 - Removed six evidence-confirmed validator false positives from active failure and review queues through exact finding resolutions; retained their completed investigation evidence.
-- Corrected governmental reconciliation applicability: 338 business-only reports have no governmental section and are now treated as not applicable rather than incomplete; Hickman remains incomplete.
+- Corrected governmental reconciliation applicability: 338 business-only reports have no governmental financial facts and are now treated as not applicable rather than incomplete; Hickman remains incomplete.
+- Removed 176 explicit transfer-elimination and reclassification records from the classification-review queue; these contra facts prevent double counting rather than misclassifying operating activity.
 
 Next:
 
-- Investigate the 199 remaining transfer-label and semantic-duplicate review candidates.
+- Investigate the 23 remaining classification and semantic-duplicate review candidates.
 - Continue investigating unresolved Tier 1 flags and classification risks.

@@ -1,6 +1,6 @@
 # Phase 3 Initial Quality Scan
 
-Generated `2026-10-22T21:04:01.671142+00:00` from read-only source outputs.
+Generated `2026-10-22T21:05:36.254536+00:00` from read-only source outputs.
 
 > These are automated findings and review candidates. A candidate is not a confirmed financial error until source evidence establishes it.
 
@@ -8,11 +8,11 @@ Generated `2026-10-22T21:04:01.671142+00:00` from read-only source outputs.
 
 - Failures: 51
 - Incomplete checks: 1
-- Review candidates: 199
+- Review candidates: 23
 
 | Rule | Count |
 | --- | ---: |
-| CLASS-TRANSFER-001 | 177 |
+| CLASS-TRANSFER-001 | 1 |
 | DUP-SOURCE-001 | 22 |
 | REC-BAL-001 | 9 |
 | REC-BT-001 | 14 |
@@ -32,7 +32,7 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 | 1 | Sutherland_FY2025 | Village of Sutherland | 2 | 0 | 0 | 80 | 2 | 0 |
 | 1 | Arlington_FY2025 | Village of Arlington | 2 | 0 | 0 | 45 | 0 | 0 |
 | 1 | Hickman_FY2025 | City of Hickman | 1 | 1 | 0 | 14 | 2 | 1 |
-| 1 | Arcadia_FY2025 | Village of Arcadia | 1 | 0 | 1 | 39 | 0 | 3 |
+| 1 | Arcadia_FY2025 | Village of Arcadia | 1 | 0 | 0 | 39 | 0 | 3 |
 | 1 | Springfield_FY2025 | City of Springfield | 1 | 0 | 0 | 39 | 0 | 3 |
 | 1 | Plattsmouth_Airport_Authority_FY2025 | Plattsmouth Airport Authority | 1 | 0 | 0 | 15 | 5 | 2 |
 | 1 | Hall_County_FY2025 | Hall County | 1 | 0 | 1 | 83 | 0 | 2 |
@@ -43,7 +43,7 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 | 1 | Gering_Irrigation_District_FY2025 | Gering Irrigation District | 1 | 0 | 0 | 22 | 10 | 1 |
 | 1 | Weston_FY2025 | Village of Weston | 1 | 0 | 0 | 27 | 2 | 1 |
 | 1 | Byron_Community_Building_District_B2526 | Byron Community Building District (Thayer County) | 1 | 0 | 0 | 14 | 2 | 1 |
-| 1 | Ord_FY2025 | City of Ord | 1 | 0 | 1 | 33 | 1 | 1 |
+| 1 | Ord_FY2025 | City of Ord | 1 | 0 | 0 | 33 | 1 | 1 |
 | 1 | Elwood_FY2025 | Village of Elwood | 1 | 0 | 0 | 74 | 0 | 1 |
 | 1 | Oakland_FY2025 | City of Oakland | 1 | 0 | 0 | 49 | 0 | 1 |
 | 1 | Pilger_FY2025 | Village of Pilger | 1 | 0 | 0 | 45 | 0 | 1 |
@@ -57,12 +57,12 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 | 1 | North_Platte_Airport_Authority_FY2025 | North Platte Airport Authority | 1 | 0 | 0 | 73 | 1 | 0 |
 | 1 | Doniphan_Trumbull_Public_Schools_FY2025 | Doniphan-Trumbull Public School District No. 40-0126 | 1 | 0 | 0 | 48 | 1 | 0 |
 | 1 | Leigh_FY2025 | Village of Leigh | 1 | 0 | 0 | 14 | 1 | 0 |
-| 1 | Millard_Public_Schools_FY2025 | School District No. 17 - Millard Public Schools | 1 | 0 | 1 | 76 | 0 | 0 |
+| 1 | Millard_Public_Schools_FY2025 | School District No. 17 - Millard Public Schools | 1 | 0 | 0 | 76 | 0 | 0 |
 | 1 | Crofton_Community_Schools_FY2025 | Crofton Community Schools District No. 96 | 1 | 0 | 0 | 60 | 0 | 0 |
-| 1 | Minden_Public_Schools_FY2025 | Minden Public Schools District No. 503 | 1 | 0 | 2 | 60 | 0 | 0 |
-| 1 | Broken_Bow_Public_Schools_FY2025 | Broken Bow Public Schools District No. 25 | 1 | 0 | 1 | 58 | 0 | 0 |
-| 1 | Elkhorn_Public_Schools_FY2025 | Douglas County School District No. 10 (Elkhorn Public Schools) | 1 | 0 | 1 | 53 | 0 | 0 |
-| 1 | Wilcox-Hildreth_Public_Schools_FY2025 | Wilcox-Hildreth Public School | 1 | 0 | 3 | 47 | 0 | 0 |
+| 1 | Minden_Public_Schools_FY2025 | Minden Public Schools District No. 503 | 1 | 0 | 0 | 60 | 0 | 0 |
+| 1 | Broken_Bow_Public_Schools_FY2025 | Broken Bow Public Schools District No. 25 | 1 | 0 | 0 | 58 | 0 | 0 |
+| 1 | Elkhorn_Public_Schools_FY2025 | Douglas County School District No. 10 (Elkhorn Public Schools) | 1 | 0 | 0 | 53 | 0 | 0 |
+| 1 | Wilcox-Hildreth_Public_Schools_FY2025 | Wilcox-Hildreth Public School | 1 | 0 | 0 | 47 | 0 | 0 |
 | 1 | Henderson_FY2025 | City of Henderson | 1 | 0 | 0 | 35 | 0 | 0 |
 | 1 | Amherst_Public_Schools_FY2025 | Amherst Public Schools District No. 119 | 1 | 0 | 0 | 32 | 0 | 0 |
 | 1 | Minatare_FY2025 | City of Minatare | 1 | 0 | 0 | 30 | 0 | 0 |
@@ -75,7 +75,7 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 | 1 | Douglas_County_SID_633_FY2025 | Sanitary and Improvement District No. 633 of Douglas County | 1 | 0 | 0 | 8 | 0 | 0 |
 | 1 | Sarpy_County_SID_374_FY2025 | Sanitary and Improvement District No. 374 of Sarpy County | 1 | 0 | 0 | 6 | 0 | 0 |
 | 3 | Sutton_FY2025 | City of Sutton, Nebraska | 0 | 0 | 0 | 46 | 1 | 3 |
-| 3 | York_Public_Schools_FY2025 | York School District No. 12 | 0 | 0 | 1 | 88 | 0 | 3 |
+| 3 | York_Public_Schools_FY2025 | York School District No. 12 | 0 | 0 | 0 | 88 | 0 | 3 |
 | 3 | Omaha_FY2025 | City of Omaha | 0 | 0 | 0 | 63 | 0 | 3 |
 
 ## Interpretation limits

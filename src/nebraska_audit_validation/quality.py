@@ -14,6 +14,11 @@ from typing import Iterable, Mapping, Sequence
 
 
 TRANSFER_RE = re.compile(r"\btransfers?\b(?! station)", re.IGNORECASE)
+TRANSFER_ADJUSTMENT_RE = re.compile(
+    r"\b(?:contra|reclass(?:ification|ified)?|included|excluding|eliminat(?:e|ed|ion)|hidden|inside)\b"
+    r"|\bnet of\b|\bless(?: amount)?\b",
+    re.IGNORECASE,
+)
 
 
 @dataclass(frozen=True)
@@ -56,6 +61,12 @@ def _requires_governmental_reconciliation(source_document: Mapping | None) -> bo
         source_document.get(key) is not None
         for key in ("beginning_fund_balance", "ending_fund_balance")
     )
+
+
+def _is_transfer_adjustment(label: str) -> bool:
+    """Identify explicit eliminations that prevent transfers from being double counted."""
+
+    return bool(TRANSFER_ADJUSTMENT_RE.search(label))
 
 
 def _resolution_matches(
@@ -190,6 +201,7 @@ def analyze(
         label = row.get("original_label", "")
         if (
             TRANSFER_RE.search(label)
+            and not _is_transfer_adjustment(label)
             and row.get("section") != "other financing"
             and not _resolution_matches(
                 resolutions,

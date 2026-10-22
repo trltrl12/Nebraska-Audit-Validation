@@ -1,9 +1,9 @@
 {
   "report_version": 1,
-  "generated_at": "2026-10-22T21:04:01.671142+00:00",
+  "generated_at": "2026-10-22T21:05:36.254536+00:00",
   "source_root": "/workspace/Nebraska-Audit",
   "finding_counts": {
-    "CLASS-TRANSFER-001": 177,
+    "CLASS-TRANSFER-001": 1,
     "DUP-SOURCE-001": 22,
     "REC-BAL-001": 9,
     "REC-BT-001": 14,
@@ -15,7 +15,7 @@
   "severity_counts": {
     "FAIL": 51,
     "INCOMPLETE": 1,
-    "REVIEW": 199
+    "REVIEW": 23
   },
   "findings": [
     {
@@ -389,1418 +389,10 @@
     {
       "rule_id": "CLASS-TRANSFER-001",
       "severity": "REVIEW",
-      "filename": "Ainsworth_Community_Schools_FY2025",
-      "entity_name": "Ainsworth Community Schools District No. 10",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=10; section=expenditure; label='Less: transfer to Depreciation Fund included in O&M lines'; amount=-200000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Arcadia_FY2025",
-      "entity_name": "Village of Arcadia",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=12; section=expenditure; label='Transfers out included in governmental disbursement lines (contra)'; amount=-89896"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Arlington_Public_Schools_FY2025",
-      "entity_name": "Washington County School District No. 24 (Arlington Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Transfer to Depreciation Fund included in Student transportation group lines (contra)'; amount=-100000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Arlington_Public_Schools_FY2025",
-      "entity_name": "Washington County School District No. 24 (Arlington Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=12; section=expenditure; label='Transfer to Depreciation Fund included in state and federal program lines (contra)'; amount=-50000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Aurora_Public_Schools_FY2025",
-      "entity_name": "Aurora School District No. 504",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund reclassified out of Student transportation - regular'; amount=-81250.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Aurora_Public_Schools_FY2025",
-      "entity_name": "Aurora School District No. 504",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=4; section=revenue; label='Contra: transfer in from General Fund included in Activities receipts'; amount=-40000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Aurora_Public_Schools_FY2025",
-      "entity_name": "Aurora School District No. 504",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=4; section=expenditure; label='Contra: transfer out included in Activities/School Nutrition disbursements'; amount=-27001.01"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Bancroft_Rosalie_Community_School_FY2025",
-      "entity_name": "Bancroft-Rosalie Community School District No. 20",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=9; section=expenditure; label='Contra: transfers to Depreciation and Employee Benefit funds included in General fund spending lines'; amount=-19640"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Beatrice_Public_Schools_FY2025",
-      "entity_name": "Beatrice Public Schools District No. 15",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Less: transfer to Depreciation Fund included in Operation and maintenance of plant'; amount=-50000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Beatrice_Public_Schools_FY2025",
-      "entity_name": "Beatrice Public Schools District No. 15",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Less: transfer to Depreciation Fund included in Student transportation'; amount=-45011"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Bellevue_Public_Schools_FY2025",
-      "entity_name": "School District No. 1 - Bellevue Public Schools",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfer to Employee Benefit included in instruction lines 1100-1300, 3500, 6000'; amount=-3450000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Bertrand_Public_Schools_FY2025",
-      "entity_name": "Bertrand Community School District No. 54",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Contra: General fund payment to Cooperative fund reclassified as transfer'; amount=-45203.38"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Bertrand_Public_Schools_FY2025",
-      "entity_name": "Bertrand Community School District No. 54",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Contra: General fund payment to Cooperative fund reclassified as transfer'; amount=-42637.42"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Bertrand_Public_Schools_FY2025",
-      "entity_name": "Bertrand Community School District No. 54",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Contra: transfer to Depreciation Fund included in 2710 Vehicle operation'; amount=-200000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Bertrand_Public_Schools_FY2025",
-      "entity_name": "Bertrand Community School District No. 54",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=4; section=revenue; label='Contra: General fund transfer included in Activities receipts'; amount=-45000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Blair_Community_Schools_FY2025",
-      "entity_name": "Washington County School District No. 1 (Blair Community Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Less amount reclassified to transfer to Depreciation Fund (Support services - students)'; amount=-80000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Blair_Community_Schools_FY2025",
-      "entity_name": "Washington County School District No. 1 (Blair Community Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Less amount reclassified to transfer to Depreciation Fund (Operation and maintenance of plant)'; amount=-145000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Blair_Community_Schools_FY2025",
-      "entity_name": "Washington County School District No. 1 (Blair Community Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Less amount reclassified to transfer to Depreciation Fund (Student transportation)'; amount=-250000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Blair_Community_Schools_FY2025",
-      "entity_name": "Washington County School District No. 1 (Blair Community Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Less amount reclassified to transfer to Depreciation Fund (State and Federal programs)'; amount=-565000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Bloomfield_Community_Schools_FY2025",
-      "entity_name": "Bloomfield Community Schools District No. 54-0586",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Less amount reclassified to transfer to Depreciation Fund (Student transportation)'; amount=-135000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Boone_Central_Schools_FY2025",
-      "entity_name": "Boone Central School District No. 1",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=9; section=expenditure; label='Contra: transfer to Depreciation Fund within Building and grounds'; amount=-100000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Boyd_County_Public_Schools_FY2025",
-      "entity_name": "Boyd County Schools District No. 51",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfer to Depreciation Fund included in student transportation lines'; amount=-150000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Brady_Public_Schools_FY2025",
-      "entity_name": "Lincoln County School District No. 56-0006 (Brady Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=4; section=expenditure; label='Reclassification of transfer to Employee Benefit Fund (Regular instruction)'; amount=-50000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Brady_Public_Schools_FY2025",
-      "entity_name": "Lincoln County School District No. 56-0006 (Brady Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=4; section=expenditure; label='Reclassification of transfer to Depreciation Fund (Regular pupil transportation)'; amount=-200000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Broken_Bow_Public_Schools_FY2025",
-      "entity_name": "Broken Bow Public Schools District No. 25",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=4; section=expenditure; label='Contra: transfer to Depreciation Fund included in General Fund disbursement lines'; amount=-400000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Bruning_Davenport_Unified_System_FY2025",
-      "entity_name": "Bruning-Davenport Unified School District No. 85-2001",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=36; section=expenditure; label='Property (reclassified to transfer out)'; amount=-100000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Bruning_Davenport_Unified_System_FY2025",
-      "entity_name": "Bruning-Davenport Unified School District No. 85-2001",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=36; section=expenditure; label='Property (reclassified to transfer out)'; amount=-200000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Cedar_Bluffs_Public_Schools_FY2025",
-      "entity_name": "Cedar Bluffs Public Schools District No. 107",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Reclassification: transfer to Depreciation Fund included in Student transportation'; amount=-250000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Centennial_Public_Schools_FY2025",
-      "entity_name": "Centennial School District No. 567",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=9; section=expenditure; label='2700 Pupil transportation (net of 225,000 transfer)'; amount=670731"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Centura_Public_Schools_FY2025",
-      "entity_name": "Centura Public Schools District No. 100",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Less: transfer to Depreciation Fund included in spending lines'; amount=-250000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Chadron_Public_Schools_FY2025",
-      "entity_name": "Chadron Public Schools",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=15; section=revenue; label='Less transfers in included in account receipts'; amount=-150000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Cody_Kilgore_Public_School_FY2025",
-      "entity_name": "Cody-Kilgore Unified Schools, District No. 30",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=11; section=expenditure; label='Less: transfer to Depreciation Fund included in O&M lines'; amount=-125000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Crawford_Public_Schools_FY2025",
-      "entity_name": "Crawford Public Schools",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=15; section=revenue; label='Transfers in included in account receipts (contra)'; amount=-90000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Creighton_Community_Public_Schools_FY2025",
-      "entity_name": "Creighton Public Schools District No. 13",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=3; section=expenditure; label='Contra: hidden transfer to Depreciation Fund inside instruction lines'; amount=-100000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Cross_County_Community_Schools_FY2025",
-      "entity_name": "Cross County School District No. 15",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund included in Student transportation - regular'; amount=-200000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Cross_County_Community_Schools_FY2025",
-      "entity_name": "Cross County School District No. 15",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=25; section=revenue; label='Contra: transfer from General Fund included in account receipts'; amount=-70467.23"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Deshler_Public_Schools_FY2025",
-      "entity_name": "Deshler School District No. 60",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Reclassification of transfer to Depreciation Fund (contra)'; amount=-350000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Diller_Odell_Public_Schools_FY2025",
-      "entity_name": "Diller-Odell Public Schools District No. 100",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification of transfer to Depreciation Fund (contra)'; amount=-41000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Diller_Odell_Public_Schools_FY2025",
-      "entity_name": "Diller-Odell Public Schools District No. 100",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification of transfer to Depreciation Fund (contra)'; amount=-208000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Dorchester_Public_Schools_FY2025",
-      "entity_name": "Dorchester School District No. 44",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Reclassification of transfer to Depreciation Fund (contra)'; amount=-125000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Dorchester_Public_Schools_FY2025",
-      "entity_name": "Dorchester School District No. 44",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=4; section=revenue; label='Transfer in from General Fund within Activities receipts (contra)'; amount=-25000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Douglas_County_West_Community_Schools_FY2025",
-      "entity_name": "School District No. 15 - Douglas County West Public Schools",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Transfer to Depreciation Fund included in disbursement lines (contra)'; amount=-300000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Dundy_County_Stratton_Public_Schools_FY2025",
-      "entity_name": "Dundy County Stratton Public Schools District No. 117",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=10; section=expenditure; label='Reclassification - transfer to Depreciation Fund (vehicle acquisition and maintenance)'; amount=-70000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Dundy_County_Stratton_Public_Schools_FY2025",
-      "entity_name": "Dundy County Stratton Public Schools District No. 117",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=10; section=expenditure; label='Reclassification - transfer to Depreciation Fund (maintenance and operation of buildings)'; amount=-100000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Dundy_County_Stratton_Public_Schools_FY2025",
-      "entity_name": "Dundy County Stratton Public Schools District No. 117",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=10; section=expenditure; label='Reclassification - transfer to Depreciation Fund (capital outlay)'; amount=-280000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "East_Butler_Public_Schools_FY2025",
-      "entity_name": "East Butler School District #502",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='2700 Pupil transportation (641,595 printed less 300,000 transfer to Depreciation Fund)'; amount=341595"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Educational_Service_Unit_10_FY2025",
-      "entity_name": "Educational Service Unit No. 10",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfer to Capital Improvements Fund included in schedule total'; amount=-1915"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Elkhorn_Public_Schools_FY2025",
-      "entity_name": "Douglas County School District No. 10 (Elkhorn Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund hidden in State/Federal program lines'; amount=-901423"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Elm_Creek_Public_Schools_FY2025",
-      "entity_name": "Elm Creek Public Schools District No. 9",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=9; section=expenditure; label='Contra: transfer to Depreciation Fund included in O&M lines (eliminated)'; amount=-225000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Elmwood_Murdock_Public_School_FY2025",
-      "entity_name": "Elmwood-Murdock Public School District No. 97",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfers to Depreciation and Employee Benefit funds expensed in General Fund'; amount=-39658"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Elmwood_Murdock_Public_School_FY2025",
-      "entity_name": "Elmwood-Murdock Public School District No. 97",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfers to Depreciation and Employee Benefit funds expensed in General Fund'; amount=-200000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Elwood_Public_Schools_FY2025",
-      "entity_name": "Elwood Public Schools",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=18; section=expenditure; label='Transfer included in Total support services - maintenance of plant (contra)'; amount=-50000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Fillmore_County_School_District_25_FY2025",
-      "entity_name": "Fillmore Central School District No. 25",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund included in 2710 Vehicle operation'; amount=-50000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Fillmore_County_School_District_25_FY2025",
-      "entity_name": "Fillmore Central School District No. 25",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=24; section=revenue; label='Less transfer from General Fund included in receipts'; amount=-9000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Fort_Calhoun_Community_School_FY2025",
-      "entity_name": "Washington County School District No. 3 (Fort Calhoun Community Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=17; section=expenditure; label='Contra: transfer to Depreciation Fund included in GF disbursement lines'; amount=-599601"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Fremont_Public_Schools_FY2025",
-      "entity_name": "Fremont Public Schools (Dodge County School District No. 001)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund hidden in Instruction'; amount=-333334"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Fremont_Public_Schools_FY2025",
-      "entity_name": "Fremont Public Schools (Dodge County School District No. 001)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund hidden in Support services - instruction'; amount=-333333"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Fremont_Public_Schools_FY2025",
-      "entity_name": "Fremont Public Schools (Dodge County School District No. 001)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund hidden in Operation and maintenance of plant'; amount=-333333"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Gibbon_Public_Schools_FY2025",
-      "entity_name": "Gibbon Public Schools - District #2",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Contra: transfer to Other Governmental Funds (Activity/Depreciation) eliminated from Instructional staff'; amount=-99435"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Gibbon_Public_Schools_FY2025",
-      "entity_name": "Gibbon Public Schools - District #2",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Contra: transfer eliminated from Building and grounds'; amount=-155672"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Giltner_Public_Schools_FY2025",
-      "entity_name": "Giltner Public Schools District No. 41-0002",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: 200,000 transfer to Depreciation Fund included in Operation and maintenance of plant lines'; amount=-200000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Gothenburg_Public_Schools_FY2025",
-      "entity_name": "Dawson County School District No. 20 (Gothenburg Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Transfer reclassification (contra)'; amount=-95000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Gothenburg_Public_Schools_FY2025",
-      "entity_name": "Dawson County School District No. 20 (Gothenburg Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Transfer reclassification (contra)'; amount=-250000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
       "filename": "Hall_County_FY2025",
       "entity_name": "Hall County",
       "message": "a transfer-labeled detail record is outside other financing",
       "evidence": "page=7; section=revenue; label='Other Receipts Interfund Transfers'; amount=5356069"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Hampton_Public_Schools_FY2025",
-      "entity_name": "Hampton Public School District No. 91",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Reclassification: transfer to Depreciation Fund included in 2710/2730'; amount=-100000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Heartland_Community_Schools_FY2025",
-      "entity_name": "Heartland School District No. 96",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Reclassification of transfer to Depreciation Fund'; amount=-133091.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Heartland_Community_Schools_FY2025",
-      "entity_name": "Heartland School District No. 96",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Reclassification of transfer to Depreciation Fund'; amount=-41000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Heartland_Community_Schools_FY2025",
-      "entity_name": "Heartland School District No. 96",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Reclassification of transfer to Depreciation Fund'; amount=-135600.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Heartland_Community_Schools_FY2025",
-      "entity_name": "Heartland School District No. 96",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=revenue; label='Transfer from General Fund included in account receipts (contra)'; amount=-42459.06"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Hemingford_Public_Schools_FY2025",
-      "entity_name": "Hemingford Public Schools, District No. 10",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Contra: transfer to Employee Benefit Fund included in Instruction'; amount=-50000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Hemingford_Public_Schools_FY2025",
-      "entity_name": "Hemingford Public Schools, District No. 10",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Contra: transfer to Cooperative Fund included in State Categorical Programs'; amount=-80000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Hemingford_Public_Schools_FY2025",
-      "entity_name": "Hemingford Public Schools, District No. 10",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Contra: transfer to Depreciation Fund included in Building Improvements'; amount=-200000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Hershey_Public_Schools_FY2025",
-      "entity_name": "Hershey School District No. 37",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=2; section=expenditure; label='Transfer to Employee Benefit fund included in GF instruction spending'; amount=-40000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Hershey_Public_Schools_FY2025",
-      "entity_name": "Hershey School District No. 37",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=2; section=expenditure; label='Transfer to Depreciation fund included in GF maintenance of plant spending'; amount=-224100.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Hitchcock_County_Public_Schools_FY2025",
-      "entity_name": "Hitchcock County Schools No. 44-0070 (Culbertson and Trenton)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund included in student transportation lines'; amount=-200000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Hitchcock_County_Public_Schools_FY2025",
-      "entity_name": "Hitchcock County Schools No. 44-0070 (Culbertson and Trenton)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Employee Benefit Fund included in categorical/federal programs'; amount=-25000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Kenesaw_Public_Schools_FY2025",
-      "entity_name": "Kenesaw Public Schools District No. 3R",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=12; section=expenditure; label='Transfer to Depreciation Fund inside Operation and maintenance of plant (contra)'; amount=-160000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Lakeview_Community_Schools_FY2025",
-      "entity_name": "Lakeview Community Schools, District No. 5, Platte County",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfer to Depreciation Fund hidden in 2600s/2650 lines'; amount=-800000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Laurel_Concord_Coleridge_Public_Schools_FY2025",
-      "entity_name": "Laurel-Concord-Coleridge Schools District No. 54",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Contra: transfers hidden in spending lines (reclassifications)'; amount=-103066"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Laurel_Concord_Coleridge_Public_Schools_FY2025",
-      "entity_name": "Laurel-Concord-Coleridge Schools District No. 54",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfers hidden in spending lines (reclassifications)'; amount=-7127"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Lawrence-Nelson_Public_Schools_FY2025",
-      "entity_name": "Lawrence-Nelson School District No. 5",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund included in Vehicle Operation lines'; amount=-275000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Lawrence-Nelson_Public_Schools_FY2025",
-      "entity_name": "Lawrence-Nelson School District No. 5",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Contra: transfer to Cooperative Fund included in Special education 0-5 lines'; amount=-11044.91"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Lawrence-Nelson_Public_Schools_FY2025",
-      "entity_name": "Lawrence-Nelson School District No. 5",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=13; section=revenue; label='Contra: General Fund transfer and dissolved-district cash included in account receipts'; amount=-197677.44"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Leigh_Community_Schools_FY2025",
-      "entity_name": "Leigh Community Schools, District No. 39",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Less: transfer to Depreciation Fund included in General Fund expenditure lines'; amount=-425000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Lexington_Public_Schools_FY2025",
-      "entity_name": "Lexington Public Schools - District #1",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Building and grounds (excluding 2,000,000 transfer to Depreciation Fund)'; amount=2812068"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Lincoln_Public_Schools_FY2025",
-      "entity_name": "Lancaster County School District No. 001 - Lincoln Public Schools",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Contra: transfers to Depreciation, Contingency and Cooperative funds and payments to ESU 18 included in function-line spending (support services part)'; amount=-25401169"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Lincoln_Public_Schools_FY2025",
-      "entity_name": "Lancaster County School District No. 001 - Lincoln Public Schools",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Contra: transfers to Depreciation, Contingency and Cooperative funds and payments to ESU 18 included in function-line spending (instruction part)'; amount=-5044139"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Lincoln_Public_Schools_FY2025",
-      "entity_name": "Lancaster County School District No. 001 - Lincoln Public Schools",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Contra: transfers to Depreciation, Contingency and Cooperative funds and payments to ESU 18 included in function-line spending (student transportation part)'; amount=-1704294"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Loomis_Public_Schools_FY2025",
-      "entity_name": "Loomis Public Schools - District #55",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=13; section=expenditure; label='Elimination of transfer to Depreciation Fund (hidden in Instruction)'; amount=-45000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Loomis_Public_Schools_FY2025",
-      "entity_name": "Loomis Public Schools - District #55",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=15; section=expenditure; label='Elimination of transfer to Depreciation Fund (hidden in Pupil transportation)'; amount=-100000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Loomis_Public_Schools_FY2025",
-      "entity_name": "Loomis Public Schools - District #55",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=16; section=expenditure; label='Elimination of transfer to Depreciation Fund (Building improvements)'; amount=-755000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Louisville_Public_Schools_FY2025",
-      "entity_name": "Louisville Public Schools District No. 32",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification of transfers to Depreciation and Employee Benefit funds'; amount=-118400"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "McCook_Public_Schools_FY2025",
-      "entity_name": "McCook Public School District No. 17",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=4; section=expenditure; label='Transfer to Depreciation Fund included in General Fund spending (contra)'; amount=-530000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "McCool_Junction_Public_Schools_FY2025",
-      "entity_name": "McCool Junction School District No. 83",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=4; section=revenue; label='Contra: transfer from General Fund included in activity account receipts'; amount=-25000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Mead_Public_Schools_FY2025",
-      "entity_name": "Mead Public Schools District No. 72",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification to transfers (contra)'; amount=-82468"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Mead_Public_Schools_FY2025",
-      "entity_name": "Mead Public Schools District No. 72",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification to transfers (contra)'; amount=-7986"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Mead_Public_Schools_FY2025",
-      "entity_name": "Mead Public Schools District No. 72",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification to transfers (contra)'; amount=-14907"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Mead_Public_Schools_FY2025",
-      "entity_name": "Mead Public Schools District No. 72",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification to transfers (contra)'; amount=-22701"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Mead_Public_Schools_FY2025",
-      "entity_name": "Mead Public Schools District No. 72",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification to transfers (contra)'; amount=-10591"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Mead_Public_Schools_FY2025",
-      "entity_name": "Mead Public Schools District No. 72",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification to transfers (contra)'; amount=-52790"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Mead_Public_Schools_FY2025",
-      "entity_name": "Mead Public Schools District No. 72",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification to transfers (contra)'; amount=-4806"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Mead_Public_Schools_FY2025",
-      "entity_name": "Mead Public Schools District No. 72",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification to transfers (contra)'; amount=-5539"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Mead_Public_Schools_FY2025",
-      "entity_name": "Mead Public Schools District No. 72",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification to transfers (contra)'; amount=-7500"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Mead_Public_Schools_FY2025",
-      "entity_name": "Mead Public Schools District No. 72",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification to transfers (contra)'; amount=-161302"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Meridian_Public_Schools_FY2025",
-      "entity_name": "Meridian Public Schools District No. 303",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Contra: transfer to Depreciation Fund included in spending lines (reclassification column)'; amount=-67000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Meridian_Public_Schools_FY2025",
-      "entity_name": "Meridian Public Schools District No. 303",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Contra: transfer to Depreciation Fund included in spending lines (reclassification column)'; amount=-20000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Milford_Public_Schools_FY2025",
-      "entity_name": "Milford School District No. 5 (Milford Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Contra: transfer to Depreciation Fund inside 2710 Vehicle operation'; amount=-150000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Milford_Public_Schools_FY2025",
-      "entity_name": "Milford School District No. 5 (Milford Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Contra: transfer to Depreciation Fund inside 4700 Building improvements'; amount=-100000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Millard_Public_Schools_FY2025",
-      "entity_name": "School District No. 17 - Millard Public Schools",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfers to Employee Benefit and Depreciation Funds included in General Fund spending'; amount=-39573163"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Minden_Public_Schools_FY2025",
-      "entity_name": "Minden Public Schools District No. 503",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Less: transfer to Depreciation Fund included in Regular instruction (reclassification)'; amount=-70000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Minden_Public_Schools_FY2025",
-      "entity_name": "Minden Public Schools District No. 503",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=9; section=expenditure; label='Less: transfer to Depreciation Fund included in Student transportation (reclassification)'; amount=-70000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Nebraska_City_Public_Schools_FY2025",
-      "entity_name": "Nebraska City Public Schools District No. 111",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Transfer included in Central services (reclassification column)'; amount=-250000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Nebraska_City_Public_Schools_FY2025",
-      "entity_name": "Nebraska City Public Schools District No. 111",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Transfer included in Operation and maintenance of plant (reclassification column)'; amount=-250000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Nebraska_City_Public_Schools_FY2025",
-      "entity_name": "Nebraska City Public Schools District No. 111",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Transfer included in State and Federal programs (reclassification column)'; amount=-800000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Neligh_Oakdale_Schools_FY2025",
-      "entity_name": "Neligh-Oakdale Public Schools, District No. 9, Antelope County",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=14; section=revenue; label='Transfer from Other Funds included in account receipts'; amount=-211084"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Norfolk_Public_Schools_FY2025",
-      "entity_name": "Madison County School District No. 2 (Norfolk Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=4; section=expenditure; label='Transfers to Depreciation and Employee Benefit funds included in function lines above'; amount=-456000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Norfolk_Public_Schools_FY2025",
-      "entity_name": "Madison County School District No. 2 (Norfolk Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Transfers to Depreciation and Employee Benefit funds included in function lines above'; amount=-18889"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Norfolk_Public_Schools_FY2025",
-      "entity_name": "Madison County School District No. 2 (Norfolk Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Transfers to Depreciation and Employee Benefit funds included in function lines above'; amount=-635339"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Norris_School_District_160_FY2025",
-      "entity_name": "Norris Public School District No. 160",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Transfer to Depreciation Fund included in Student transportation (contra)'; amount=-851600"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "North_Platte_Public_Schools_FY2025",
-      "entity_name": "Lincoln County Public Schools District No. 1 (North Platte Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=10; section=expenditure; label='Contra: transfers included in spending lines'; amount=-1054432"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Northwest_Public_Schools_FY2025",
-      "entity_name": "Northwest Public Schools (School District #82)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=9; section=expenditure; label='Contra: transfer to Depreciation Fund included in Building and grounds'; amount=-200000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "ONeill_Public_Schools_FY2025",
-      "entity_name": "O'Neill Public Schools District No. 7",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=10; section=expenditure; label='Contra: transfer to Depreciation Fund hidden in Student transportation lines 2710-2733'; amount=-80000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Oakland_Craig_Public_Schools_FY2025",
-      "entity_name": "Oakland-Craig Public Schools District No. 14",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund hidden in general administration'; amount=-100000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Ogallala_Public_Schools_FY2025",
-      "entity_name": "Ogallala Public Schools - District #51-0001",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Contra: transfer to Depreciation Fund included in Pupil transportation'; amount=-54450"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Ogallala_Public_Schools_FY2025",
-      "entity_name": "Ogallala Public Schools - District #51-0001",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Contra: transfer to Depreciation Fund included in State categorical programs'; amount=-20000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Ord_FY2025",
-      "entity_name": "City of Ord",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=21; section=expenditure; label='Contra: transfers out and other financing uses included in governmental disbursement lines'; amount=-2069985"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Osceola_Public_Schools_FY2025",
-      "entity_name": "Osceola Public Schools - District #19",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=9; section=expenditure; label='Contra: transfer to Depreciation Fund inside 2700 Pupil transportation'; amount=-90000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Papillion_La_Vista_Public_School_FY2025",
-      "entity_name": "School District No. 27, Papillion-La Vista Public Schools",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=14; section=expenditure; label='Contra: transfer to Depreciation Fund included in support services - instructional'; amount=-1000000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Paxton_Consolidated_Schools_FY2025",
-      "entity_name": "Paxton Consolidated Public Schools District No. 6",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=1; section=expenditure; label='Less transfer to Depreciation Fund included in plant lines'; amount=-150000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Pierce_Public_Schools_FY2025",
-      "entity_name": "Pierce Public Schools District No. 2",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification of transfer to Depreciation Fund (contra)'; amount=-300000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Plattsmouth_Community_Schools_FY2025",
-      "entity_name": "Cass County School District No. 1 (Plattsmouth Community Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=14; section=expenditure; label='Reclassification of transfer to Employee Benefit Fund (contra)'; amount=-61184"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Ponca_Public_Schools_FY2025",
-      "entity_name": "Dixon County Schools District No. 1 (Ponca Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Contra: transfer to Depreciation Fund included in Instruction lines'; amount=-50000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Ponca_Public_Schools_FY2025",
-      "entity_name": "Dixon County Schools District No. 1 (Ponca Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Contra: transfer to Depreciation Fund included in Support services - staff lines'; amount=-25000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Ponca_Public_Schools_FY2025",
-      "entity_name": "Dixon County Schools District No. 1 (Ponca Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Contra: transfer to Depreciation Fund included in Student transportation lines'; amount=-25000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Potter_Dix_Public_Schools_FY2025",
-      "entity_name": "Potter-Dix School District No. 9",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=9; section=revenue; label='Transfer from General Fund included in account receipts (contra)'; amount=-55000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Ralston_Public_Schools_FY2025",
-      "entity_name": "Douglas County School District No. 54 (Ralston Public Schools)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund included in program lines'; amount=-500000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Rock_County_Public_Schools_FY2025",
-      "entity_name": "Rock County Public Schools District No. 100",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=10; section=expenditure; label='Contra: transfer to Depreciation Fund included in General Fund spending lines'; amount=-240000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Sandy_Creek_Schools_FY2025",
-      "entity_name": "Sandy Creek School District No. 501",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: depreciation fund transfer included in plant lines'; amount=-150000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Sandy_Creek_Schools_FY2025",
-      "entity_name": "Sandy Creek School District No. 501",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: depreciation fund transfer included in transportation lines'; amount=-175000.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Sargent_FY2025",
-      "entity_name": "City of Sargent",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=18; section=expenditure; label='Transfers to governmental funds inside utility disbursements (contra)'; amount=-170500"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Schuyler_Community_Schools_FY2025",
-      "entity_name": "Schuyler Community Schools",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfers to Employee Benefit and Cooperative Funds hidden in General column spending'; amount=-124293"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Seward_Public_Schools_FY2025",
-      "entity_name": "Seward Public Schools District No. 9",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfer to Depreciation Fund included in Student transportation 2710-2792'; amount=-100000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Seward_Public_Schools_FY2025",
-      "entity_name": "Seward Public Schools District No. 9",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfer to Depreciation Fund included in Instruction / State programs / Federal programs'; amount=-100000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Shelby_Rising_City_Public_Schools_FY2025",
-      "entity_name": "Shelby-Rising City Public Schools, District No. 32",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=17; section=expenditure; label='Contra: transfer to Employee Benefit Fund included in instruction lines'; amount=-56199"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Shelton_Public_Schools_FY2025",
-      "entity_name": "Shelton Public School District #19",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfer to Depreciation Fund included in operation and maintenance of plant lines'; amount=-328204"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Shelton_Public_Schools_FY2025",
-      "entity_name": "Shelton Public School District #19",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfer to Depreciation Fund included in student transportation lines'; amount=-38000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Sioux_County_Public_Schools_FY2025",
-      "entity_name": "Sioux County Public Schools, District No. 500",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=4; section=expenditure; label='Elimination of transfer to Depreciation Fund inside Operation and Maintenance of Plant'; amount=-30000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "South_Sioux_City_FY2025",
-      "entity_name": "City of South Sioux City, Nebraska",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=20; section=expenditure; label='Contra: transfer out included in Public Safety'; amount=-1816062"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Southern_School_District_1_FY2025",
-      "entity_name": "Southern School District No. 1",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=22; section=revenue; label='Contra: transfer from General Fund included in account receipts'; amount=-5312"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Springfield_Platteview_Community_Schools_FY2025",
-      "entity_name": "Springfield Platteview Community Schools (Sarpy County School District No. 46)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Contra: General Fund spending reclassified as transfers to Depreciation and Employee Benefit funds (Instruction share)'; amount=-175000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Springfield_Platteview_Community_Schools_FY2025",
-      "entity_name": "Springfield Platteview Community Schools (Sarpy County School District No. 46)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Contra: General Fund spending reclassified as transfer to Depreciation Fund'; amount=-75000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Springfield_Platteview_Community_Schools_FY2025",
-      "entity_name": "Springfield Platteview Community Schools (Sarpy County School District No. 46)",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Contra: General Fund spending reclassified as transfer to Depreciation/Employee Benefit funds'; amount=-50000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Superior_Public_Schools_FY2025",
-      "entity_name": "Superior Public Schools District No. 11",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Reclassification to transfer to Depreciation Fund'; amount=-150000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Superior_Public_Schools_FY2025",
-      "entity_name": "Superior Public Schools District No. 11",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Reclassification to transfer to Depreciation Fund'; amount=-150000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Superior_Public_Schools_FY2025",
-      "entity_name": "Superior Public Schools District No. 11",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Reclassification to transfer to Depreciation Fund'; amount=-200000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Sutton_Public_Schools_FY2025",
-      "entity_name": "Sutton Public Schools - District #2",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='2600 Building and grounds (net of 400,000 transfer to Depreciation Fund)'; amount=270118"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Thayer_Central_Community_Schools_FY2025",
-      "entity_name": "Thayer Central Community Schools",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Reclassification: transfer to Activities Fund inside Student transportation'; amount=-125000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "TriCounty_Public_School_FY2025",
-      "entity_name": "Tri-County Public Schools District No. 300",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Hidden transfer to Depreciation Fund inside Instruction lines (contra)'; amount=-1000000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "UMO_N_HO_N_Nation_Public_School_FY2025",
-      "entity_name": "Umonhon Nation Public Schools District No. 16",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfer to Depreciation Fund included in 2900'; amount=-75000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Valentine_Community_Schools_FY2025",
-      "entity_name": "Valentine Community Schools District No. 6",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=12; section=expenditure; label='Transfer to Depreciation Fund included in 2600 lines (reclassified as transfer on p4)'; amount=-300000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Verdigre_Public_School_FY2025",
-      "entity_name": "Verdigre Public School",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=13; section=revenue; label='Transfer from General Fund included in account receipts (contra)'; amount=-15000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Wahoo_Public_Schools_FY2025",
-      "entity_name": "Wahoo Public Schools District No. 39",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Reclassification: transfer to Depreciation Fund included in State/Federal program lines'; amount=-633535"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Wausa_Public_Schools_FY2025",
-      "entity_name": "Wausa Public Schools District No. 54-0576",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfer to Employee Benefit Fund included in General administration (2300 group)'; amount=-5000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Wausa_Public_Schools_FY2025",
-      "entity_name": "Wausa Public Schools District No. 54-0576",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfer to Depreciation Fund included in Operation and maintenance of plant (2600 group)'; amount=-100000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Wayne_Public_Schools_FY2025",
-      "entity_name": "Wayne Community Schools",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund included in 2700 lines'; amount=-50000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "West_Holt_Public_Schools_FY2025",
-      "entity_name": "West Holt Public Schools District No. 239",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=5; section=expenditure; label='Transfer to Depreciation Fund included in 2600 lines (contra)'; amount=-350000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "West_Point_Public_Schools_FY2025",
-      "entity_name": "West Point Public Schools District No. 1",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Reclassification: General Fund transfer to Depreciation Fund (included in O&M lines above)'; amount=-300000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Wilber_Clatonia_Public_Schools_FY2025",
-      "entity_name": "Wilber-Clatonia Public Schools District No. 82",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Contra: transfer to Depreciation Fund included in lines 2610-2670'; amount=-700000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Wilcox-Hildreth_Public_Schools_FY2025",
-      "entity_name": "Wilcox-Hildreth Public School",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Less: transfer to Depreciation Fund included in Instruction'; amount=-100000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Wilcox-Hildreth_Public_Schools_FY2025",
-      "entity_name": "Wilcox-Hildreth Public School",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Less: transfer to Depreciation Fund included in Facility improvements'; amount=-400000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Wilcox-Hildreth_Public_Schools_FY2025",
-      "entity_name": "Wilcox-Hildreth Public School",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=6; section=expenditure; label='Less: transfer to Depreciation Fund included in Pupil transportation'; amount=-200000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Wisner_Pilger_Public_Schools_FY2025",
-      "entity_name": "Wisner-Pilger Public Schools District No. 30",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=9; section=expenditure; label='Contra: transfer to Employee Benefit Fund included in General Fund spending lines'; amount=-109337"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Wood_River_Rural_Schools_FY2025",
-      "entity_name": "School District #83 (Wood River Rural Schools), Hall County",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Elimination of transfer to Depreciation Fund (contra)'; amount=-80000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Wood_River_Rural_Schools_FY2025",
-      "entity_name": "School District #83 (Wood River Rural Schools), Hall County",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Elimination of transfer to Depreciation Fund (contra)'; amount=-265000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Wood_River_Rural_Schools_FY2025",
-      "entity_name": "School District #83 (Wood River Rural Schools), Hall County",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=7; section=expenditure; label='Elimination of transfer to Depreciation Fund (contra)'; amount=-150000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "York_Public_Schools_FY2025",
-      "entity_name": "York School District No. 12",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=13; section=revenue; label='Transfer from General Fund included in receipts (not identified by account)'; amount=-85630.0"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Yutan_Public_Schools_FY2025",
-      "entity_name": "School District No. 9 - Yutan Public Schools",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=8; section=expenditure; label='Contra: transfers to Employee Benefit and Depreciation funds included in program lines'; amount=-178360"
     },
     {
       "rule_id": "DUP-SOURCE-001",
@@ -2109,12 +701,11 @@
       "entity_name": "Village of Arcadia",
       "failures": 1,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 39,
       "page_check_items": 0,
       "decision_items": 3,
       "rule_ids": [
-        "CLASS-TRANSFER-001",
         "REC-BAL-001"
       ]
     },
@@ -2265,12 +856,11 @@
       "entity_name": "City of Ord",
       "failures": 1,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 33,
       "page_check_items": 1,
       "decision_items": 1,
       "rule_ids": [
-        "CLASS-TRANSFER-001",
         "SOURCE-FLAG-001"
       ]
     },
@@ -2462,12 +1052,11 @@
       "entity_name": "School District No. 17 - Millard Public Schools",
       "failures": 1,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 76,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": [
-        "CLASS-TRANSFER-001",
         "REC-GOV-001"
       ]
     },
@@ -2491,12 +1080,11 @@
       "entity_name": "Minden Public Schools District No. 503",
       "failures": 1,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 0,
       "existing_review_items": 60,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": [
-        "CLASS-TRANSFER-001",
         "REC-GOV-001"
       ]
     },
@@ -2506,12 +1094,11 @@
       "entity_name": "Broken Bow Public Schools District No. 25",
       "failures": 1,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 58,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": [
-        "CLASS-TRANSFER-001",
         "REC-GOV-001"
       ]
     },
@@ -2521,12 +1108,11 @@
       "entity_name": "Douglas County School District No. 10 (Elkhorn Public Schools)",
       "failures": 1,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 53,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": [
-        "CLASS-TRANSFER-001",
         "REC-GOV-001"
       ]
     },
@@ -2536,12 +1122,11 @@
       "entity_name": "Wilcox-Hildreth Public School",
       "failures": 1,
       "incomplete": 0,
-      "review_findings": 3,
+      "review_findings": 0,
       "existing_review_items": 47,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": [
-        "CLASS-TRANSFER-001",
         "REC-BT-001"
       ]
     },
@@ -2717,13 +1302,11 @@
       "entity_name": "York School District No. 12",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 88,
       "page_check_items": 0,
       "decision_items": 3,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -2851,13 +1434,11 @@
       "entity_name": "Washington County School District No. 3 (Fort Calhoun Community Schools)",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 68,
       "page_check_items": 6,
       "decision_items": 2,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -2937,13 +1518,11 @@
       "entity_name": "Fillmore Central School District No. 25",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 0,
       "existing_review_items": 70,
       "page_check_items": 0,
       "decision_items": 2,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -2987,13 +1566,11 @@
       "entity_name": "Dundy County Stratton Public Schools District No. 117",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 3,
+      "review_findings": 0,
       "existing_review_items": 56,
       "page_check_items": 0,
       "decision_items": 2,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -3025,13 +1602,11 @@
       "entity_name": "Madison County School District No. 2 (Norfolk Public Schools)",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 3,
+      "review_findings": 0,
       "existing_review_items": 46,
       "page_check_items": 0,
       "decision_items": 2,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -3039,13 +1614,11 @@
       "entity_name": "School District No. 27, Papillion-La Vista Public Schools",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 46,
       "page_check_items": 0,
       "decision_items": 2,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -3053,13 +1626,11 @@
       "entity_name": "Sioux County Public Schools, District No. 500",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 41,
       "page_check_items": 0,
       "decision_items": 2,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -4723,13 +3294,11 @@
       "entity_name": "Hershey School District No. 37",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 0,
       "existing_review_items": 60,
       "page_check_items": 6,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -5265,13 +3834,11 @@
       "entity_name": "Sandy Creek School District No. 501",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 0,
       "existing_review_items": 82,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -5423,13 +3990,11 @@
       "entity_name": "Superior Public Schools District No. 11",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 3,
+      "review_findings": 0,
       "existing_review_items": 64,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -5605,12 +4170,11 @@
       "entity_name": "McCook Public School District No. 17",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 1,
       "existing_review_items": 52,
       "page_check_items": 0,
       "decision_items": 1,
       "rule_ids": [
-        "CLASS-TRANSFER-001",
         "DUP-SOURCE-001"
       ]
     },
@@ -5620,13 +4184,11 @@
       "entity_name": "Wayne Community Schools",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 52,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -5646,13 +4208,11 @@
       "entity_name": "Dixon County Schools District No. 1 (Ponca Public Schools)",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 3,
+      "review_findings": 0,
       "existing_review_items": 50,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -5672,13 +4232,11 @@
       "entity_name": "City of South Sioux City, Nebraska",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 46,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -5722,13 +4280,11 @@
       "entity_name": "Cass County School District No. 1 (Plattsmouth Community Schools)",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 43,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -5736,13 +4292,11 @@
       "entity_name": "Schuyler Community Schools",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 43,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -5762,13 +4316,11 @@
       "entity_name": "Tri-County Public Schools District No. 300",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 41,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -5776,13 +4328,11 @@
       "entity_name": "Laurel-Concord-Coleridge Schools District No. 54",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 0,
       "existing_review_items": 40,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -5850,13 +4400,11 @@
       "entity_name": "Nebraska City Public Schools District No. 111",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 3,
+      "review_findings": 0,
       "existing_review_items": 38,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -5900,13 +4448,11 @@
       "entity_name": "Milford School District No. 5 (Milford Public Schools)",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 0,
       "existing_review_items": 37,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -5926,13 +4472,11 @@
       "entity_name": "Mead Public Schools District No. 72",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 10,
+      "review_findings": 0,
       "existing_review_items": 36,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -5988,13 +4532,11 @@
       "entity_name": "Wahoo Public Schools District No. 39",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 35,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -6014,13 +4556,11 @@
       "entity_name": "Hitchcock County Schools No. 44-0070 (Culbertson and Trenton)",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 0,
       "existing_review_items": 34,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -6100,13 +4640,11 @@
       "entity_name": "Sutton Public Schools - District #2",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 31,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -6294,13 +4832,11 @@
       "entity_name": "Pierce Public Schools District No. 2",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 28,
       "page_check_items": 0,
       "decision_items": 1,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -8420,13 +6956,11 @@
       "entity_name": "City of Sargent",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 62,
       "page_check_items": 27,
       "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -8770,13 +7304,11 @@
       "entity_name": "Fremont Public Schools (Dodge County School District No. 001)",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 3,
+      "review_findings": 0,
       "existing_review_items": 103,
       "page_check_items": 24,
       "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -10176,12 +8708,11 @@
       "entity_name": "Potter-Dix School District No. 9",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 1,
       "existing_review_items": 57,
       "page_check_items": 12,
       "decision_items": 0,
       "rule_ids": [
-        "CLASS-TRANSFER-001",
         "DUP-SOURCE-001"
       ]
     },
@@ -19209,13 +17740,11 @@
       "entity_name": "Bruning-Davenport Unified School District No. 85-2001",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 0,
       "existing_review_items": 68,
       "page_check_items": 4,
       "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -19223,13 +17752,11 @@
       "entity_name": "Leigh Community Schools, District No. 39",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 62,
       "page_check_items": 4,
       "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -19237,13 +17764,11 @@
       "entity_name": "Elwood Public Schools",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 56,
       "page_check_items": 4,
       "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -19671,13 +18196,11 @@
       "entity_name": "Bancroft-Rosalie Community School District No. 20",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 72,
       "page_check_items": 3,
       "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -20621,13 +19144,11 @@
       "entity_name": "Lakeview Community Schools, District No. 5, Platte County",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 82,
       "page_check_items": 1,
       "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -20659,13 +19180,11 @@
       "entity_name": "Shelby-Rising City Public Schools, District No. 32",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
+      "review_findings": 0,
       "existing_review_items": 61,
       "page_check_items": 1,
       "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -20673,13 +19192,11 @@
       "entity_name": "Ogallala Public Schools - District #51-0001",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 0,
       "existing_review_items": 59,
       "page_check_items": 1,
       "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -20687,13 +19204,11 @@
       "entity_name": "Seward Public Schools District No. 9",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 0,
       "existing_review_items": 41,
       "page_check_items": 1,
       "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 3,
@@ -21297,48 +19812,6 @@
     },
     {
       "tier": 3,
-      "filename": "Aurora_Public_Schools_FY2025",
-      "entity_name": "Aurora School District No. 504",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 3,
-      "existing_review_items": 88,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Bertrand_Public_Schools_FY2025",
-      "entity_name": "Bertrand Community School District No. 54",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 4,
-      "existing_review_items": 82,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Cross_County_Community_Schools_FY2025",
-      "entity_name": "Cross County School District No. 15",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 2,
-      "existing_review_items": 82,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
       "filename": "Crete_Public_Schools_FY2025",
       "entity_name": "Saline County School District No. 2 (Crete Public Schools)",
       "failures": 0,
@@ -21353,269 +19826,16 @@
     },
     {
       "tier": 3,
-      "filename": "Lawrence-Nelson_Public_Schools_FY2025",
-      "entity_name": "Lawrence-Nelson School District No. 5",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 3,
-      "existing_review_items": 79,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Lincoln_Public_Schools_FY2025",
-      "entity_name": "Lancaster County School District No. 001 - Lincoln Public Schools",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 3,
-      "existing_review_items": 71,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Chadron_Public_Schools_FY2025",
-      "entity_name": "Chadron Public Schools",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 66,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Douglas_County_West_Community_Schools_FY2025",
-      "entity_name": "School District No. 15 - Douglas County West Public Schools",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 65,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Southern_School_District_1_FY2025",
-      "entity_name": "Southern School District No. 1",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 65,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Dorchester_Public_Schools_FY2025",
-      "entity_name": "Dorchester School District No. 44",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 2,
-      "existing_review_items": 63,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Heartland_Community_Schools_FY2025",
-      "entity_name": "Heartland School District No. 96",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 4,
-      "existing_review_items": 60,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Oakland_Craig_Public_Schools_FY2025",
-      "entity_name": "Oakland-Craig Public Schools District No. 14",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 57,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Beatrice_Public_Schools_FY2025",
-      "entity_name": "Beatrice Public Schools District No. 15",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 2,
-      "existing_review_items": 56,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Bellevue_Public_Schools_FY2025",
-      "entity_name": "School District No. 1 - Bellevue Public Schools",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 55,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Yutan_Public_Schools_FY2025",
-      "entity_name": "School District No. 9 - Yutan Public Schools",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 55,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Hemingford_Public_Schools_FY2025",
-      "entity_name": "Hemingford Public Schools, District No. 10",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 3,
-      "existing_review_items": 54,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Hampton_Public_Schools_FY2025",
-      "entity_name": "Hampton Public School District No. 91",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 52,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "North_Platte_Public_Schools_FY2025",
-      "entity_name": "Lincoln County Public Schools District No. 1 (North Platte Public Schools)",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 52,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Arlington_Public_Schools_FY2025",
-      "entity_name": "Washington County School District No. 24 (Arlington Public Schools)",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 2,
-      "existing_review_items": 51,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Brady_Public_Schools_FY2025",
-      "entity_name": "Lincoln County School District No. 56-0006 (Brady Public Schools)",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 2,
-      "existing_review_items": 50,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "McCool_Junction_Public_Schools_FY2025",
-      "entity_name": "McCool Junction School District No. 83",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 50,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
       "filename": "Cody_Kilgore_Public_School_FY2025",
       "entity_name": "Cody-Kilgore Unified Schools, District No. 30",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 1,
       "existing_review_items": 49,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": [
-        "CLASS-TRANSFER-001",
         "DUP-SOURCE-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Loomis_Public_Schools_FY2025",
-      "entity_name": "Loomis Public Schools - District #55",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 3,
-      "existing_review_items": 48,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
       ]
     },
     {
@@ -21624,83 +19844,12 @@
       "entity_name": "Neligh-Oakdale Public Schools, District No. 9, Antelope County",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 2,
+      "review_findings": 1,
       "existing_review_items": 46,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": [
-        "CLASS-TRANSFER-001",
         "DUP-SOURCE-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "ONeill_Public_Schools_FY2025",
-      "entity_name": "O'Neill Public Schools District No. 7",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 45,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Shelton_Public_Schools_FY2025",
-      "entity_name": "Shelton Public School District #19",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 2,
-      "existing_review_items": 45,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Crawford_Public_Schools_FY2025",
-      "entity_name": "Crawford Public Schools",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 44,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Deshler_Public_Schools_FY2025",
-      "entity_name": "Deshler School District No. 60",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 44,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Ainsworth_Community_Schools_FY2025",
-      "entity_name": "Ainsworth Community Schools District No. 10",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 43,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
       ]
     },
     {
@@ -21709,153 +19858,12 @@
       "entity_name": "Dawson County School District No. 20 (Gothenburg Public Schools)",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 11,
+      "review_findings": 9,
       "existing_review_items": 43,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": [
-        "CLASS-TRANSFER-001",
         "DUP-SOURCE-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Northwest_Public_Schools_FY2025",
-      "entity_name": "Northwest Public Schools (School District #82)",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 43,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Wilber_Clatonia_Public_Schools_FY2025",
-      "entity_name": "Wilber-Clatonia Public Schools District No. 82",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 43,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Blair_Community_Schools_FY2025",
-      "entity_name": "Washington County School District No. 1 (Blair Community Schools)",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 4,
-      "existing_review_items": 42,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Cedar_Bluffs_Public_Schools_FY2025",
-      "entity_name": "Cedar Bluffs Public Schools District No. 107",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 40,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Lexington_Public_Schools_FY2025",
-      "entity_name": "Lexington Public Schools - District #1",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 40,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Paxton_Consolidated_Schools_FY2025",
-      "entity_name": "Paxton Consolidated Public Schools District No. 6",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 40,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Centura_Public_Schools_FY2025",
-      "entity_name": "Centura Public Schools District No. 100",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 39,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Norris_School_District_160_FY2025",
-      "entity_name": "Norris Public School District No. 160",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 39,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Thayer_Central_Community_Schools_FY2025",
-      "entity_name": "Thayer Central Community Schools",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 39,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Wisner_Pilger_Public_Schools_FY2025",
-      "entity_name": "Wisner-Pilger Public Schools District No. 30",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 39,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
       ]
     },
     {
@@ -21874,118 +19882,6 @@
     },
     {
       "tier": 3,
-      "filename": "Boone_Central_Schools_FY2025",
-      "entity_name": "Boone Central School District No. 1",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 38,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Diller_Odell_Public_Schools_FY2025",
-      "entity_name": "Diller-Odell Public Schools District No. 100",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 2,
-      "existing_review_items": 38,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Kenesaw_Public_Schools_FY2025",
-      "entity_name": "Kenesaw Public Schools District No. 3R",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 38,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Elmwood_Murdock_Public_School_FY2025",
-      "entity_name": "Elmwood-Murdock Public School District No. 97",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 2,
-      "existing_review_items": 37,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Louisville_Public_Schools_FY2025",
-      "entity_name": "Louisville Public Schools District No. 32",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 37,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Valentine_Community_Schools_FY2025",
-      "entity_name": "Valentine Community Schools District No. 6",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 37,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Springfield_Platteview_Community_Schools_FY2025",
-      "entity_name": "Springfield Platteview Community Schools (Sarpy County School District No. 46)",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 3,
-      "existing_review_items": 36,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Wausa_Public_Schools_FY2025",
-      "entity_name": "Wausa Public Schools District No. 54-0576",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 2,
-      "existing_review_items": 35,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
       "filename": "Elgin_Public_Schools_FY2025",
       "entity_name": "Elgin Public Schools District No. 18",
       "failures": 0,
@@ -21999,256 +19895,40 @@
       ]
     },
     {
-      "tier": 3,
-      "filename": "Wood_River_Rural_Schools_FY2025",
-      "entity_name": "School District #83 (Wood River Rural Schools), Hall County",
+      "tier": 4,
+      "filename": "Aurora_Public_Schools_FY2025",
+      "entity_name": "Aurora School District No. 504",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 3,
-      "existing_review_items": 34,
+      "review_findings": 0,
+      "existing_review_items": 88,
       "page_check_items": 0,
       "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
-      "tier": 3,
-      "filename": "Boyd_County_Public_Schools_FY2025",
-      "entity_name": "Boyd County Schools District No. 51",
+      "tier": 4,
+      "filename": "Bertrand_Public_Schools_FY2025",
+      "entity_name": "Bertrand Community School District No. 54",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 33,
+      "review_findings": 0,
+      "existing_review_items": 82,
       "page_check_items": 0,
       "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
-      "tier": 3,
-      "filename": "Osceola_Public_Schools_FY2025",
-      "entity_name": "Osceola Public Schools - District #19",
+      "tier": 4,
+      "filename": "Cross_County_Community_Schools_FY2025",
+      "entity_name": "Cross County School District No. 15",
       "failures": 0,
       "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 33,
+      "review_findings": 0,
+      "existing_review_items": 82,
       "page_check_items": 0,
       "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Verdigre_Public_School_FY2025",
-      "entity_name": "Verdigre Public School",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 33,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Bloomfield_Community_Schools_FY2025",
-      "entity_name": "Bloomfield Community Schools District No. 54-0586",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 32,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Centennial_Public_Schools_FY2025",
-      "entity_name": "Centennial School District No. 567",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 32,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "East_Butler_Public_Schools_FY2025",
-      "entity_name": "East Butler School District #502",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 30,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Creighton_Community_Public_Schools_FY2025",
-      "entity_name": "Creighton Public Schools District No. 13",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 29,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Elm_Creek_Public_Schools_FY2025",
-      "entity_name": "Elm Creek Public Schools District No. 9",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 29,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Ralston_Public_Schools_FY2025",
-      "entity_name": "Douglas County School District No. 54 (Ralston Public Schools)",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 29,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "West_Holt_Public_Schools_FY2025",
-      "entity_name": "West Holt Public Schools District No. 239",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 29,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "West_Point_Public_Schools_FY2025",
-      "entity_name": "West Point Public Schools District No. 1",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 28,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Rock_County_Public_Schools_FY2025",
-      "entity_name": "Rock County Public Schools District No. 100",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 27,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Giltner_Public_Schools_FY2025",
-      "entity_name": "Giltner Public Schools District No. 41-0002",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 26,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Meridian_Public_Schools_FY2025",
-      "entity_name": "Meridian Public Schools District No. 303",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 2,
-      "existing_review_items": 26,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Gibbon_Public_Schools_FY2025",
-      "entity_name": "Gibbon Public Schools - District #2",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 2,
-      "existing_review_items": 25,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "UMO_N_HO_N_Nation_Public_School_FY2025",
-      "entity_name": "Umonhon Nation Public Schools District No. 16",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 24,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
-    },
-    {
-      "tier": 3,
-      "filename": "Educational_Service_Unit_10_FY2025",
-      "entity_name": "Educational Service Unit No. 10",
-      "failures": 0,
-      "incomplete": 0,
-      "review_findings": 1,
-      "existing_review_items": 15,
-      "page_check_items": 0,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001"
-      ]
+      "rule_ids": []
     },
     {
       "tier": 4,
@@ -22258,6 +19938,18 @@
       "incomplete": 0,
       "review_findings": 0,
       "existing_review_items": 80,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Lawrence-Nelson_Public_Schools_FY2025",
+      "entity_name": "Lawrence-Nelson School District No. 5",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 79,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": []
@@ -22336,6 +20028,18 @@
     },
     {
       "tier": 4,
+      "filename": "Lincoln_Public_Schools_FY2025",
+      "entity_name": "Lancaster County School District No. 001 - Lincoln Public Schools",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 71,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Chadron_FY2025",
       "entity_name": "City of Chadron",
       "failures": 0,
@@ -22360,12 +20064,60 @@
     },
     {
       "tier": 4,
+      "filename": "Chadron_Public_Schools_FY2025",
+      "entity_name": "Chadron Public Schools",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 66,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "DeWitt_FY2025",
       "entity_name": "Village of DeWitt",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
       "existing_review_items": 66,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Douglas_County_West_Community_Schools_FY2025",
+      "entity_name": "School District No. 15 - Douglas County West Public Schools",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 65,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Southern_School_District_1_FY2025",
+      "entity_name": "Southern School District No. 1",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 65,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Dorchester_Public_Schools_FY2025",
+      "entity_name": "Dorchester School District No. 44",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 63,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": []
@@ -22402,6 +20154,18 @@
       "incomplete": 0,
       "review_findings": 0,
       "existing_review_items": 62,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Heartland_Community_Schools_FY2025",
+      "entity_name": "Heartland School District No. 96",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 60,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": []
@@ -22468,12 +20232,48 @@
     },
     {
       "tier": 4,
+      "filename": "Oakland_Craig_Public_Schools_FY2025",
+      "entity_name": "Oakland-Craig Public Schools District No. 14",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 57,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Beatrice_Public_Schools_FY2025",
+      "entity_name": "Beatrice Public Schools District No. 15",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 56,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Hooper_FY2025",
       "entity_name": "City of Hooper",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
       "existing_review_items": 56,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Bellevue_Public_Schools_FY2025",
+      "entity_name": "School District No. 1 - Bellevue Public Schools",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 55,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": []
@@ -22504,6 +20304,30 @@
     },
     {
       "tier": 4,
+      "filename": "Yutan_Public_Schools_FY2025",
+      "entity_name": "School District No. 9 - Yutan Public Schools",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 55,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Hemingford_Public_Schools_FY2025",
+      "entity_name": "Hemingford Public Schools, District No. 10",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 54,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Atkinson_FY2025",
       "entity_name": "City of Atkinson",
       "failures": 0,
@@ -22522,6 +20346,42 @@
       "incomplete": 0,
       "review_findings": 0,
       "existing_review_items": 53,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Hampton_Public_Schools_FY2025",
+      "entity_name": "Hampton Public School District No. 91",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 52,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "North_Platte_Public_Schools_FY2025",
+      "entity_name": "Lincoln County Public Schools District No. 1 (North Platte Public Schools)",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 52,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Arlington_Public_Schools_FY2025",
+      "entity_name": "Washington County School District No. 24 (Arlington Public Schools)",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 51,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": []
@@ -22564,8 +20424,32 @@
     },
     {
       "tier": 4,
+      "filename": "Brady_Public_Schools_FY2025",
+      "entity_name": "Lincoln County School District No. 56-0006 (Brady Public Schools)",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 50,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Kimball_County_FY2025",
       "entity_name": "Kimball County",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 50,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "McCool_Junction_Public_Schools_FY2025",
+      "entity_name": "McCool Junction School District No. 83",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -22686,6 +20570,18 @@
       "tier": 4,
       "filename": "Lindsay_FY2025",
       "entity_name": "Village of Lindsay",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 48,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Loomis_Public_Schools_FY2025",
+      "entity_name": "Loomis Public Schools - District #55",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -22876,6 +20772,18 @@
     },
     {
       "tier": 4,
+      "filename": "ONeill_Public_Schools_FY2025",
+      "entity_name": "O'Neill Public Schools District No. 7",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 45,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Ponca_FY2025",
       "entity_name": "City of Ponca",
       "failures": 0,
@@ -22888,8 +20796,44 @@
     },
     {
       "tier": 4,
+      "filename": "Shelton_Public_Schools_FY2025",
+      "entity_name": "Shelton Public School District #19",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 45,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Ainsworth_FY2025",
       "entity_name": "City of Ainsworth, Nebraska",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 44,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Crawford_Public_Schools_FY2025",
+      "entity_name": "Crawford Public Schools",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 44,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Deshler_Public_Schools_FY2025",
+      "entity_name": "Deshler School District No. 60",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -22918,6 +20862,18 @@
       "incomplete": 0,
       "review_findings": 0,
       "existing_review_items": 44,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Ainsworth_Community_Schools_FY2025",
+      "entity_name": "Ainsworth Community Schools District No. 10",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 43,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": []
@@ -23008,12 +20964,48 @@
     },
     {
       "tier": 4,
+      "filename": "Northwest_Public_Schools_FY2025",
+      "entity_name": "Northwest Public Schools (School District #82)",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 43,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Southwest_Nebraska_Public_Health_Department_FY2025",
       "entity_name": "Southwest Nebraska Public Health Department",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
       "existing_review_items": 43,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Wilber_Clatonia_Public_Schools_FY2025",
+      "entity_name": "Wilber-Clatonia Public Schools District No. 82",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 43,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Blair_Community_Schools_FY2025",
+      "entity_name": "Washington County School District No. 1 (Blair Community Schools)",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 42,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": []
@@ -23200,8 +21192,44 @@
     },
     {
       "tier": 4,
+      "filename": "Cedar_Bluffs_Public_Schools_FY2025",
+      "entity_name": "Cedar Bluffs Public Schools District No. 107",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 40,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Franklin_FY2025",
       "entity_name": "City of Franklin",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 40,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Lexington_Public_Schools_FY2025",
+      "entity_name": "Lexington Public Schools - District #1",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 40,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Paxton_Consolidated_Schools_FY2025",
+      "entity_name": "Paxton Consolidated Public Schools District No. 6",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -23284,6 +21312,18 @@
     },
     {
       "tier": 4,
+      "filename": "Centura_Public_Schools_FY2025",
+      "entity_name": "Centura Public Schools District No. 100",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 39,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Chase_County_Schools_FY2025",
       "entity_name": "Chase County Schools District No. 10",
       "failures": 0,
@@ -23310,6 +21350,18 @@
       "tier": 4,
       "filename": "High_Plains_Community_Schools_FY2025",
       "entity_name": "High Plains Community School District No. 75",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 39,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Norris_School_District_160_FY2025",
+      "entity_name": "Norris Public School District No. 160",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -23356,6 +21408,18 @@
     },
     {
       "tier": 4,
+      "filename": "Thayer_Central_Community_Schools_FY2025",
+      "entity_name": "Thayer Central Community Schools",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 39,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Thayer_County_FY2025",
       "entity_name": "Thayer County, Nebraska",
       "failures": 0,
@@ -23380,6 +21444,42 @@
     },
     {
       "tier": 4,
+      "filename": "Wisner_Pilger_Public_Schools_FY2025",
+      "entity_name": "Wisner-Pilger Public Schools District No. 30",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 39,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Boone_Central_Schools_FY2025",
+      "entity_name": "Boone Central School District No. 1",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 38,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Diller_Odell_Public_Schools_FY2025",
+      "entity_name": "Diller-Odell Public Schools District No. 100",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 38,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Jefferson_County_FY2025",
       "entity_name": "Jefferson County",
       "failures": 0,
@@ -23394,6 +21494,18 @@
       "tier": 4,
       "filename": "Johnson_County_FY2025",
       "entity_name": "Johnson County",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 38,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Kenesaw_Public_Schools_FY2025",
+      "entity_name": "Kenesaw Public Schools District No. 3R",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -23440,6 +21552,18 @@
     },
     {
       "tier": 4,
+      "filename": "Elmwood_Murdock_Public_School_FY2025",
+      "entity_name": "Elmwood-Murdock Public School District No. 97",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 37,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Fillmore_County_FY2025",
       "entity_name": "Fillmore County, Nebraska",
       "failures": 0,
@@ -23452,8 +21576,32 @@
     },
     {
       "tier": 4,
+      "filename": "Louisville_Public_Schools_FY2025",
+      "entity_name": "Louisville Public Schools District No. 32",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 37,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Minden_FY2025",
       "entity_name": "City of Minden",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 37,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Valentine_Community_Schools_FY2025",
+      "entity_name": "Valentine Community Schools District No. 6",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -23490,6 +21638,18 @@
       "tier": 4,
       "filename": "Schuyler_FY2025",
       "entity_name": "City of Schuyler",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 36,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Springfield_Platteview_Community_Schools_FY2025",
+      "entity_name": "Springfield Platteview Community Schools (Sarpy County School District No. 46)",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -23550,6 +21710,18 @@
       "tier": 4,
       "filename": "Walthill_Public_Schools_FY2025",
       "entity_name": "Walthill Public Schools District No. 13",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 35,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Wausa_Public_Schools_FY2025",
+      "entity_name": "Wausa Public Schools District No. 54-0576",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -23632,6 +21804,30 @@
     },
     {
       "tier": 4,
+      "filename": "Wood_River_Rural_Schools_FY2025",
+      "entity_name": "School District #83 (Wood River Rural Schools), Hall County",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 34,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Boyd_County_Public_Schools_FY2025",
+      "entity_name": "Boyd County Schools District No. 51",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 33,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Cairo_FY2025",
       "entity_name": "Village of Cairo",
       "failures": 0,
@@ -23680,8 +21876,56 @@
     },
     {
       "tier": 4,
+      "filename": "Osceola_Public_Schools_FY2025",
+      "entity_name": "Osceola Public Schools - District #19",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 33,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Verdigre_Public_School_FY2025",
+      "entity_name": "Verdigre Public School",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 33,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Bloomfield_Community_Schools_FY2025",
+      "entity_name": "Bloomfield Community Schools District No. 54-0586",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 32,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Brown_County_FY2025",
       "entity_name": "Brown County",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 32,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Centennial_Public_Schools_FY2025",
+      "entity_name": "Centennial School District No. 567",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -23968,6 +22212,18 @@
     },
     {
       "tier": 4,
+      "filename": "East_Butler_Public_Schools_FY2025",
+      "entity_name": "East Butler School District #502",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 30,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Educational_Service_Unit_9",
       "entity_name": "Educational Service Unit No. 9",
       "failures": 0,
@@ -24076,6 +22332,18 @@
     },
     {
       "tier": 4,
+      "filename": "Creighton_Community_Public_Schools_FY2025",
+      "entity_name": "Creighton Public Schools District No. 13",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 29,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Curtis_FY2025",
       "entity_name": "City of Curtis",
       "failures": 0,
@@ -24090,6 +22358,18 @@
       "tier": 4,
       "filename": "Diller_FY2025",
       "entity_name": "Village of Diller",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 29,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Elm_Creek_Public_Schools_FY2025",
+      "entity_name": "Elm Creek Public Schools District No. 9",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -24126,6 +22406,30 @@
       "tier": 4,
       "filename": "Greenwood_FY2025",
       "entity_name": "Village of Greenwood",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 29,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Ralston_Public_Schools_FY2025",
+      "entity_name": "Douglas County School District No. 54 (Ralston Public Schools)",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 29,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "West_Holt_Public_Schools_FY2025",
+      "entity_name": "West Holt Public Schools District No. 239",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -24280,6 +22584,18 @@
     },
     {
       "tier": 4,
+      "filename": "West_Point_Public_Schools_FY2025",
+      "entity_name": "West Point Public Schools District No. 1",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 28,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Arthur_County_FY2025",
       "entity_name": "Arthur County",
       "failures": 0,
@@ -24402,6 +22718,18 @@
       "tier": 4,
       "filename": "Loup_City_Public_Schools_FY2025",
       "entity_name": "Loup City Public Schools District No. 1",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 27,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Rock_County_Public_Schools_FY2025",
+      "entity_name": "Rock County Public Schools District No. 100",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -24568,6 +22896,18 @@
     },
     {
       "tier": 4,
+      "filename": "Giltner_Public_Schools_FY2025",
+      "entity_name": "Giltner Public Schools District No. 41-0002",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 26,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
       "filename": "Long_Pine_FY2025",
       "entity_name": "City of Long Pine",
       "failures": 0,
@@ -24582,6 +22922,18 @@
       "tier": 4,
       "filename": "Madison_FY2025",
       "entity_name": "City of Madison",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 26,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Meridian_Public_Schools_FY2025",
+      "entity_name": "Meridian Public Schools District No. 303",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -24702,6 +23054,18 @@
       "tier": 4,
       "filename": "Clarks_FY2025",
       "entity_name": "Village of Clarks",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 25,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Gibbon_Public_Schools_FY2025",
+      "entity_name": "Gibbon Public Schools - District #2",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -24918,6 +23282,18 @@
       "tier": 4,
       "filename": "Stuart_Public_Schools_FY2025",
       "entity_name": "Stuart Public Schools District No. 44",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 24,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "UMO_N_HO_N_Nation_Public_School_FY2025",
+      "entity_name": "Umonhon Nation Public Schools District No. 16",
       "failures": 0,
       "incomplete": 0,
       "review_findings": 0,
@@ -25882,6 +24258,18 @@
       "incomplete": 0,
       "review_findings": 0,
       "existing_review_items": 16,
+      "page_check_items": 0,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 4,
+      "filename": "Educational_Service_Unit_10_FY2025",
+      "entity_name": "Educational Service Unit No. 10",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 15,
       "page_check_items": 0,
       "decision_items": 0,
       "rule_ids": []
