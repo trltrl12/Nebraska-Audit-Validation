@@ -16,7 +16,7 @@ This review compares Nebraska-Audit source commit `e3487afa0a6953a428bea997359aa
 | Progress rows | 2,672 | 2,672 | 0 |
 | Manifest rows | 2,669 | 2,669 | 0 |
 
-The refreshed independent quality scan contains 57 failures, 339 incomplete checks, and 204 review findings. The increase consists of three source-flag failures, four transfer-label review findings, and two provenance-aware duplicate candidates. The baseline also now records 368 affirmative proprietary cash-flow reconciliations, up from 366.
+Before adjudication, the refreshed independent quality scan contained 57 failures, 339 incomplete checks, and 204 review findings. The source update added three Sargent source-flag failures, four transfer-label review findings across the dataset, and two provenance-aware duplicate candidates. After applying the four evidence-confirmed false-positive resolutions, the active scan contains 53 failures, 339 incomplete checks, and 201 review findings. The baseline also now records 368 affirmative proprietary cash-flow reconciliations, up from 366.
 
 ## Direct Sargent re-trim effect
 
@@ -40,7 +40,7 @@ The entity's core cash summary did not change:
 | Ending balance | $2,407,163 |
 | Reconciles | Yes |
 
-The three new flags are validator false positives. “Athletic Transfer” and “Transfer” are Activities Fund account names. The underlying schedule prints $3,000 and $7,175 in the Receipts column and $7,281 in the Disbursements column; the Transfers in (out) column is zero for all three rows. The extraction should retain those printed classifications, and the validator should use statement-column context before treating the word “transfer” as interfund activity.
+The three new flags are validator false positives. “Athletic Transfer” and “Transfer” are Activities Fund account names. The underlying schedule prints $3,000 and $7,175 in the Receipts column and $7,281 in the Disbursements column; the Transfers in (out) column is zero for all three rows. The extraction retains those printed classifications. The reviewed findings are resolved and no longer appear in the active validation queue.
 
 ## Repository-wide rebuild effect
 
@@ -51,6 +51,6 @@ The rebuild also populated previously blank proprietary cash-flow fields for Pla
 ## Validation treatment
 
 - Use `d3fa659a9a62f6ba11fd35154f168f466e70b683` as the current source baseline.
-- Preserve Sargent's printed receipt and disbursement values and record the three flags as validator false positives.
+- Preserve Sargent's printed receipt and disbursement values and remove the three confirmed false positives from the active validation queue.
 - Do not infer that all 710 added detail rows came from the Sargent re-trim; 633 of the net increase arose elsewhere during output regeneration.
 - Review the refreshed Plainview, Waterloo, Hemingford, Hastings, Crete, and Platte County projections against retained evidence before granting verified publication status.

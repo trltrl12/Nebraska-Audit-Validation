@@ -1,25 +1,25 @@
 # Phase 3 Initial Quality Scan
 
-Generated `2026-10-22T20:29:34.708379+00:00` from read-only source outputs.
+Generated `2026-10-22T20:35:49.633808+00:00` from read-only source outputs.
 
 > These are automated findings and review candidates. A candidate is not a confirmed financial error until source evidence establishes it.
 
 ## Findings
 
-- Failures: 57
+- Failures: 53
 - Incomplete checks: 339
-- Review candidates: 204
+- Review candidates: 201
 
 | Rule | Count |
 | --- | ---: |
-| CLASS-TRANSFER-001 | 182 |
+| CLASS-TRANSFER-001 | 179 |
 | DUP-SOURCE-001 | 22 |
 | REC-BAL-001 | 9 |
 | REC-BT-001 | 14 |
 | REC-GOV-001 | 20 |
 | REC-GOV-002 | 339 |
 | REC-PROP-001 | 2 |
-| SOURCE-FLAG-001 | 12 |
+| SOURCE-FLAG-001 | 8 |
 
 ## Highest-priority entities
 
@@ -27,7 +27,6 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 
 | Tier | File | Entity | Failures | Incomplete | Scanner reviews | Existing reviews | Page checks | Decisions |
 | ---: | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1 | Sargent_Public_Schools_FY2025 | Sargent School District No. 84 | 3 | 0 | 3 | 46 | 15 | 0 |
 | 1 | Oshkosh_FY2025 | City of Oshkosh | 2 | 0 | 0 | 56 | 4 | 1 |
 | 1 | Wymore_FY2025 | City of Wymore | 2 | 0 | 0 | 39 | 4 | 1 |
 | 1 | Sutherland_FY2025 | Village of Sutherland | 2 | 0 | 0 | 80 | 2 | 0 |
@@ -35,7 +34,6 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 | 1 | Pathfinder_Irrigation_District_FY2025 | Pathfinder Irrigation District | 1 | 1 | 0 | 15 | 0 | 2 |
 | 1 | Gering_Irrigation_District_FY2025 | Gering Irrigation District | 1 | 1 | 0 | 22 | 10 | 1 |
 | 1 | Hickman_FY2025 | City of Hickman | 1 | 1 | 0 | 14 | 2 | 1 |
-| 1 | Municipal_Energy_Agency_of_Nebraska_FY2025 | Municipal Energy Agency of Nebraska | 1 | 1 | 0 | 13 | 0 | 1 |
 | 1 | Central_Irrigation_District_FY2025 | Central Irrigation District | 1 | 1 | 0 | 25 | 11 | 0 |
 | 1 | Laurel_Housing_Authority_FY2025 | Housing Authority of the City of Laurel, Nebraska | 1 | 1 | 0 | 7 | 3 | 0 |
 | 1 | North_Platte_Airport_Authority_FY2025 | North Platte Airport Authority | 1 | 1 | 0 | 73 | 1 | 0 |
@@ -77,6 +75,8 @@ Tier 1 has an explicit failure, Tier 2 has an incomplete governmental roll-forwa
 | 1 | Sarpy_County_SID_23_FY2025 | Sanitary and Improvement District No. 23 of Sarpy County | 1 | 0 | 0 | 17 | 0 | 0 |
 | 1 | Sarpy_County_SID_373_FY2025 | Sanitary and Improvement District No. 373 of Sarpy County | 1 | 0 | 0 | 9 | 0 | 0 |
 | 1 | Douglas_County_SID_633_FY2025 | Sanitary and Improvement District No. 633 of Douglas County | 1 | 0 | 0 | 8 | 0 | 0 |
+| 1 | Sarpy_County_SID_374_FY2025 | Sanitary and Improvement District No. 374 of Sarpy County | 1 | 0 | 0 | 6 | 0 | 0 |
+| 2 | Elm_Creek_Housing_Agency_FY2025 | Elm Creek Housing Agency | 0 | 1 | 0 | 9 | 0 | 2 |
 
 ## Interpretation limits
 

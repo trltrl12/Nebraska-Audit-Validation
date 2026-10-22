@@ -27,5 +27,8 @@ Run the initial Phase 3 quality and triage scan with:
 python -m nebraska_audit_validation.quality \
   --source /workspace/Nebraska-Audit \
   --json reports/phase3_initial_quality.json \
-  --markdown reports/phase3_initial_quality.md
+  --markdown reports/phase3_initial_quality.md \
+  --resolved-findings config/resolved_findings.json
 ```
+
+Evidence-confirmed false positives are removed from active failure and review queues through `config/resolved_findings.json`. Their investigation evidence remains in `records/investigation_log.csv`.

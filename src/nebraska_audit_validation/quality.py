@@ -35,6 +35,36 @@ def _stem(value: str) -> str:
     return Path(value).stem
 
 
+def _read_resolutions(path: Path | None) -> list[dict]:
+    if path is None or not path.exists():
+        return []
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return list(data.get("resolutions", []))
+
+
+def _resolution_matches(
+    resolutions: Sequence[Mapping],
+    *,
+    rule_id: str,
+    filename: str,
+    source_page: str,
+    label_or_reason: str,
+) -> bool:
+    """Return true only for an exact, evidence-reviewed finding resolution."""
+
+    for resolution in resolutions:
+        if rule_id not in resolution.get("rule_ids", []):
+            continue
+        if filename != resolution.get("filename"):
+            continue
+        if source_page != str(resolution.get("source_page", "")):
+            continue
+        label = str(resolution.get("original_label", ""))
+        if label and label in label_or_reason:
+            return True
+    return False
+
+
 def _semantic_duplicate_candidates(rows: Sequence[Mapping[str, str]]) -> list[Finding]:
     """Find repeated source-located records; equal amounts alone are never enough."""
 
@@ -80,7 +110,11 @@ def _semantic_duplicate_candidates(rows: Sequence[Mapping[str, str]]) -> list[Fi
     return findings
 
 
-def analyze(source_root: Path, generated_at: str | None = None) -> dict:
+def analyze(
+    source_root: Path,
+    generated_at: str | None = None,
+    resolved_findings: Path | None = Path("config/resolved_findings.json"),
+) -> dict:
     source_root = source_root.resolve()
     output = source_root / "output"
     summary = _read_csv(output / "cashflow_summary.csv")
@@ -88,6 +122,7 @@ def analyze(source_root: Path, generated_at: str | None = None) -> dict:
     review = _read_csv(output / "review.csv")
     flagged = _read_csv(output / "flagged.csv")
     progress = _read_csv(output / "progress.csv")
+    resolutions = _read_resolutions(resolved_findings)
 
     findings: list[Finding] = []
     entity_by_file = {_stem(row["filename"]): row.get("entity_name", "") for row in summary}
@@ -126,7 +161,17 @@ def analyze(source_root: Path, generated_at: str | None = None) -> dict:
         if not row.get("source_page", "").strip():
             findings.append(Finding("SRC-PAGE-001", "FAIL", filename, entity, "detail source page is missing"))
         label = row.get("original_label", "")
-        if TRANSFER_RE.search(label) and row.get("section") != "other financing":
+        if (
+            TRANSFER_RE.search(label)
+            and row.get("section") != "other financing"
+            and not _resolution_matches(
+                resolutions,
+                rule_id="CLASS-TRANSFER-001",
+                filename=filename,
+                source_page=row.get("source_page", ""),
+                label_or_reason=label,
+            )
+        ):
             findings.append(
                 Finding(
                     rule_id="CLASS-TRANSFER-001",
@@ -145,6 +190,14 @@ def analyze(source_root: Path, generated_at: str | None = None) -> dict:
 
     for row in flagged:
         filename = _stem(row["filename"])
+        if _resolution_matches(
+            resolutions,
+            rule_id="SOURCE-FLAG-001",
+            filename=filename,
+            source_page=row.get("pages", ""),
+            label_or_reason=row.get("reason", ""),
+        ):
+            continue
         findings.append(
             Finding(
                 rule_id="SOURCE-FLAG-001",
@@ -287,8 +340,14 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser.add_argument("--source", type=Path, required=True)
     parser.add_argument("--json", type=Path, required=True)
     parser.add_argument("--markdown", type=Path, required=True)
+    parser.add_argument(
+        "--resolved-findings",
+        type=Path,
+        default=Path("config/resolved_findings.json"),
+        help="Evidence-reviewed findings to remove from active queues",
+    )
     args = parser.parse_args(argv)
-    data = analyze(args.source)
+    data = analyze(args.source, resolved_findings=args.resolved_findings)
     args.json.parent.mkdir(parents=True, exist_ok=True)
     args.markdown.parent.mkdir(parents=True, exist_ok=True)
     args.json.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")

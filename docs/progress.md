@@ -41,8 +41,9 @@ Completed:
 - Confirmed one incomplete retained-source case (Hickman) and four validator false positives: one Municipal Energy Agency classification and three Sargent Public Schools account-name matches.
 - Recorded publication treatment without changing or forcing any financial value.
 - Refreshed the baseline and quality scan to source commit `d3fa659a9a62f6ba11fd35154f168f466e70b683`.
+- Removed four evidence-confirmed validator false positives from active failure and review queues through exact finding resolutions; retained their completed investigation evidence.
 
 Next:
 
 - Investigate the remaining Tier 1 entities, separating source-report defects from extraction, classification, and completeness defects.
-- Resolve the source validator's three Sargent false positives with a context-aware rule that checks the printed statement column, while preserving the extracted receipt and disbursement values.
+- Continue investigating unresolved Tier 1 flags and classification risks.

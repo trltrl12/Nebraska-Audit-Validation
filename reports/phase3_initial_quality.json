@@ -1,21 +1,21 @@
 {
   "report_version": 1,
-  "generated_at": "2026-10-22T20:29:34.708379+00:00",
+  "generated_at": "2026-10-22T20:35:49.633808+00:00",
   "source_root": "/workspace/Nebraska-Audit",
   "finding_counts": {
-    "CLASS-TRANSFER-001": 182,
+    "CLASS-TRANSFER-001": 179,
     "DUP-SOURCE-001": 22,
     "REC-BAL-001": 9,
     "REC-BT-001": 14,
     "REC-GOV-001": 20,
     "REC-GOV-002": 339,
     "REC-PROP-001": 2,
-    "SOURCE-FLAG-001": 12
+    "SOURCE-FLAG-001": 8
   },
   "severity_counts": {
-    "FAIL": 57,
+    "FAIL": 53,
     "INCOMPLETE": 339,
-    "REVIEW": 204
+    "REVIEW": 201
   },
   "findings": [
     {
@@ -4221,30 +4221,6 @@
     {
       "rule_id": "CLASS-TRANSFER-001",
       "severity": "REVIEW",
-      "filename": "Sargent_Public_Schools_FY2025",
-      "entity_name": "Sargent School District No. 84",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=22; section=revenue; label='Athletic Transfer (Receipts)'; amount=3000"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Sargent_Public_Schools_FY2025",
-      "entity_name": "Sargent School District No. 84",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=23; section=revenue; label='Transfer (Receipts)'; amount=7175"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
-      "filename": "Sargent_Public_Schools_FY2025",
-      "entity_name": "Sargent School District No. 84",
-      "message": "a transfer-labeled detail record is outside other financing",
-      "evidence": "page=23; section=expenditure; label='Transfer (Disbursements)'; amount=7281"
-    },
-    {
-      "rule_id": "CLASS-TRANSFER-001",
-      "severity": "REVIEW",
       "filename": "Schuyler_Community_Schools_FY2025",
       "entity_name": "Schuyler Community Schools",
       "message": "a transfer-labeled detail record is outside other financing",
@@ -4765,14 +4741,6 @@
     {
       "rule_id": "SOURCE-FLAG-001",
       "severity": "FAIL",
-      "filename": "Municipal_Energy_Agency_of_Nebraska_FY2025",
-      "entity_name": "Municipal Energy Agency of Nebraska",
-      "message": "existing validator flag (category): receipts[1] 'Transfer from (provision for) rate stabilization' -1,500,000: transfer recorded as a receipt; transfers belong in transfers_in/out (detail section 'other financing')",
-      "evidence": "pages=2"
-    },
-    {
-      "rule_id": "SOURCE-FLAG-001",
-      "severity": "FAIL",
       "filename": "Ord_FY2025",
       "entity_name": "City of Ord",
       "message": "existing validator flag (verifier): missing: verifier: Trimmed p22 is only the right half of this schedule. The left half with row labels and the General/Public Health/Culture and Recreation/Debt Service/Public Works columns (report p61, PDF page 65) was not trimmed, so the schedule's lines are missing from detail[]. This is a trim problem (find_pages): re-trim to include PDF p65, then re-extract. (page shows Schedule of Expenditures - Modified Cash Basis - Governmental Funds (report p62), Total column: 754,343; 227,893; 119,361; 553,321; 268,053; 450,749; 319,543; 91,472; total 2,784,735)",
@@ -4789,30 +4757,6 @@
     {
       "rule_id": "SOURCE-FLAG-001",
       "severity": "FAIL",
-      "filename": "Sargent_Public_Schools_FY2025",
-      "entity_name": "Sargent School District No. 84",
-      "message": "existing validator flag (category): detail[65] 'Athletic Transfer (Receipts)' 3,000: transfer recorded as revenue; transfers belong in transfers_in/out (detail section 'other financing')",
-      "evidence": "pages=22"
-    },
-    {
-      "rule_id": "SOURCE-FLAG-001",
-      "severity": "FAIL",
-      "filename": "Sargent_Public_Schools_FY2025",
-      "entity_name": "Sargent School District No. 84",
-      "message": "existing validator flag (category): detail[93] 'Transfer (Receipts)' 7,175: transfer recorded as revenue; transfers belong in transfers_in/out (detail section 'other financing')",
-      "evidence": "pages=23"
-    },
-    {
-      "rule_id": "SOURCE-FLAG-001",
-      "severity": "FAIL",
-      "filename": "Sargent_Public_Schools_FY2025",
-      "entity_name": "Sargent School District No. 84",
-      "message": "existing validator flag (category): detail[125] 'Transfer (Disbursements)' 7,281: transfer recorded as expenditure; transfers belong in transfers_in/out (detail section 'other financing')",
-      "evidence": "pages=23"
-    },
-    {
-      "rule_id": "SOURCE-FLAG-001",
-      "severity": "FAIL",
       "filename": "Twin_Platte_NRD_FY2025",
       "entity_name": "Twin Platte Natural Resources District",
       "message": "existing validator flag (category): detail[15] 'Chemigation fee transfer' 3,718: transfer recorded as expenditure; transfers belong in transfers_in/out (detail section 'other financing')",
@@ -4820,21 +4764,6 @@
     }
   ],
   "priority_queue": [
-    {
-      "tier": 1,
-      "filename": "Sargent_Public_Schools_FY2025",
-      "entity_name": "Sargent School District No. 84",
-      "failures": 3,
-      "incomplete": 0,
-      "review_findings": 3,
-      "existing_review_items": 46,
-      "page_check_items": 15,
-      "decision_items": 0,
-      "rule_ids": [
-        "CLASS-TRANSFER-001",
-        "SOURCE-FLAG-001"
-      ]
-    },
     {
       "tier": 1,
       "filename": "Oshkosh_FY2025",
@@ -4934,21 +4863,6 @@
       "review_findings": 0,
       "existing_review_items": 14,
       "page_check_items": 2,
-      "decision_items": 1,
-      "rule_ids": [
-        "REC-GOV-002",
-        "SOURCE-FLAG-001"
-      ]
-    },
-    {
-      "tier": 1,
-      "filename": "Municipal_Energy_Agency_of_Nebraska_FY2025",
-      "entity_name": "Municipal Energy Agency of Nebraska",
-      "failures": 1,
-      "incomplete": 1,
-      "review_findings": 0,
-      "existing_review_items": 13,
-      "page_check_items": 0,
       "decision_items": 1,
       "rule_ids": [
         "REC-GOV-002",
@@ -5927,6 +5841,20 @@
       "tier": 2,
       "filename": "Boyd_-_Holt_County_911_Dispatch_Center_FY2025",
       "entity_name": "Boyd-Holt County Enhanced 911 Dispatch Center",
+      "failures": 0,
+      "incomplete": 1,
+      "review_findings": 0,
+      "existing_review_items": 13,
+      "page_check_items": 0,
+      "decision_items": 1,
+      "rule_ids": [
+        "REC-GOV-002"
+      ]
+    },
+    {
+      "tier": 2,
+      "filename": "Municipal_Energy_Agency_of_Nebraska_FY2025",
+      "entity_name": "Municipal Energy Agency of Nebraska",
       "failures": 0,
       "incomplete": 1,
       "review_findings": 0,
@@ -16612,6 +16540,18 @@
       "incomplete": 0,
       "review_findings": 0,
       "existing_review_items": 52,
+      "page_check_items": 15,
+      "decision_items": 0,
+      "rule_ids": []
+    },
+    {
+      "tier": 3,
+      "filename": "Sargent_Public_Schools_FY2025",
+      "entity_name": "Sargent School District No. 84",
+      "failures": 0,
+      "incomplete": 0,
+      "review_findings": 0,
+      "existing_review_items": 46,
       "page_check_items": 15,
       "decision_items": 0,
       "rule_ids": []

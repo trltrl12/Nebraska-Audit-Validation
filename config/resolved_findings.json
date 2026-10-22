@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "resolutions": [
+    {
+      "filename": "Municipal_Energy_Agency_of_Nebraska_FY2025",
+      "source_page": "2",
+      "original_label": "Transfer from (provision for) rate stabilization",
+      "rule_ids": [
+        "SOURCE-FLAG-001"
+      ],
+      "decision": "Confirmed regulatory provision within operating revenues, not interfund activity.",
+      "evidence": "records/investigation_log.csv"
+    },
+    {
+      "filename": "Sargent_Public_Schools_FY2025",
+      "source_page": "22",
+      "original_label": "Athletic Transfer (Receipts)",
+      "rule_ids": [
+        "CLASS-TRANSFER-001",
+        "SOURCE-FLAG-001"
+      ],
+      "decision": "Confirmed Activities Fund account name; amount is printed in Receipts and Transfers in (out) is zero.",
+      "evidence": "records/investigation_log.csv"
+    },
+    {
+      "filename": "Sargent_Public_Schools_FY2025",
+      "source_page": "23",
+      "original_label": "Transfer (Receipts)",
+      "rule_ids": [
+        "CLASS-TRANSFER-001",
+        "SOURCE-FLAG-001"
+      ],
+      "decision": "Confirmed Activities Fund account name; amount is printed in Receipts and Transfers in (out) is zero.",
+      "evidence": "records/investigation_log.csv"
+    },
+    {
+      "filename": "Sargent_Public_Schools_FY2025",
+      "source_page": "23",
+      "original_label": "Transfer (Disbursements)",
+      "rule_ids": [
+        "CLASS-TRANSFER-001",
+        "SOURCE-FLAG-001"
+      ],
+      "decision": "Confirmed Activities Fund account name; amount is printed in Disbursements and Transfers in (out) is zero.",
+      "evidence": "records/investigation_log.csv"
+    }
+  ]
+}

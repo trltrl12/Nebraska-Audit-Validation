@@ -48,4 +48,4 @@ The existing JSON already records the source-report discrepancies in `report_dis
 
 ## Next investigation targets
 
-The next group prioritizes remaining existing validator flags and material transfer/classification cases, beginning with Boelus, Hall County, Leigh, Lower Loup NRD, Ord, Plattsmouth Airport Authority, and Twin Platte NRD. Sargent's three source flags can be removed after the source validator adopts the documented context-aware exception.
+The next group prioritizes remaining active validator flags and material transfer/classification cases, beginning with Boelus, Hall County, Leigh, Lower Loup NRD, Ord, Plattsmouth Airport Authority, and Twin Platte NRD. Sargent's three reviewed false positives have been removed from the active validation queue.
